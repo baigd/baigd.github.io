@@ -7,7 +7,7 @@ image:
   feature: trees.jpg
 ---
 
-I am a Lecturer at <a href="https://www.griffith.edu.au/griffith-sciences/school-information-communication-technology" target="_blank">School of Information and Communication Technology</a>, <a href="https://www.griffith.edu.au" target="_blank">Griffith University</a>, Australia. 
+I am a Lecturer at <a href="https://www.griffith.edu.au/griffith-sciences/school-information-communication-technology" target="_blank">School of Information and Communication Technology</a>, <a href="https://www.griffith.edu.au" target="_blank">Griffith University</a>, Australia. I am also a member of Griffith's <a href="https://www.griffith.edu.au/institute-integrated-intelligent-systems" target="_blank">Institute for Integrated and Intelligent Systems (IIIS)</a>. 
 My research interests include Computer Security, Software Engineering and Formal Methods. 
 
 
