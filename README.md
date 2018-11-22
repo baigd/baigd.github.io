@@ -1,3 +1,8 @@
+# Guangdong Bai's site
+
+This site is created based on **[Jordi Pont-Tuset's site](http://jponttuset.cat/)**. Thanks, Jordi! The following is from his orginal README file. 
+
+
 # Jordi Pont-Tuset's site
 
 This site is based on the **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** theme, a two-column responsive Jekyll theme perfect for powering your GitHub hosted blog.

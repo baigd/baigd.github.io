@@ -1,21 +1,18 @@
 ---
 layout: home2
-title: Me in a Nutshell
-description: "Jordi Pont-Tuset's website"
+title: About
+description: "Guangdong's site"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: trees.jpg
 ---
 
-I am a research scientist at <a href="https://research.google.com" target="_blank">Google Research</a> 
-and part of the advisory board of <a href="http://www.vilynx.com/index.html" target="_blank">Vilynx</a>.
+I am a Lecturer at <a href="https://www.griffith.edu.au/griffith-sciences/school-information-communication-technology" target="_blank">School of Information and Communication Technology</a>, <a href="https://www.griffith.edu.au" target="_blank">Griffith University</a>, Australia. 
+My research interests include Computer Security, Software Engineering and Formal Methods. 
 
-<br />
-Previously, I worked at <a href="http://www.vision.ee.ethz.ch/index.en.html" target="_blank">ETHZ</a>
-and <a href="http://www.disneyresearch.com/research-labs/disney-research-zurich/" target="_blank">Disney Research</a>,
-and I collaborated with <a href="http://www.cs.berkeley.edu/~malik/" target="_blank">Prof. J. Malik</a>'s vision group 
-and with the startup <a href="http://fezoo.cat" target="_blank">Fezoo</a>.
 
-<br />
-I am a mathematician, engineer, and PhD in computer vision by <a href="http://www.upc.edu" target="_blank">UPC Barcelonatech</a>.
+<br>
+Previously, I was an Assistant Professor in Singapore Institute of Technology, Singapore. I obtained my PhD degree from National University of Singapore, Singapore in 2015, and my M.S. and B.S. from Peking University, China in 2011 and 2008, respectively. 
 
+<br>
+<b>Work with me: </b> I am looking for self-motivated PhD students, interns and postdocs. My current focus is on formal methods on security, protocol verification, fuzzing, machine learning and blockchain. If you are interested, please send me an email with your CV. 

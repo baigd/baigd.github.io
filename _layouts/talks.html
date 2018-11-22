@@ -1,0 +1,167 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+<style>
+  .bottom-three {
+     margin-bottom: 1.5cm;
+   }
+  .bottom-small {
+     margin-bottom: 1cm;
+   }
+</style>
+</head>
+
+<body class="page">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1> Talks Given by me</h1>
+<!-- Item: SyScan2018 -->
+<li ><p>
+<b>A New Fuzzing Method on Android </b>
+<br>
+<i>SyScan360</i>, Singapore, Mar 2018. 
+<br />
+</p>
+</li>
+
+<!-- Item: HITB2017 -->
+<li ><p>
+<b>The Nightmare of Fragmentation: A Case Study of 200+ Vulnerabilities in Android Phones</b>
+<br>
+<i>HITB GSEC</i>, Singapore, Aug 2017. 
+<br />
+</p>
+</li>
+
+<!-- Item: Blackhat2017 -->
+<li ><p>
+<b>3G/4G Intranet Scanning and its Application on the WormHole Vulnerability</b>
+<br>
+<i>Black Hat Asia</i>, Singapore, Mar 2017. 
+<br />
+</p>
+</li>
+
+<!-- Item: Blackhat2015 -->
+<li ><p>
+<b>Authenticator Leakage through Backup Channels on Android</b>
+<br>
+<i>Black Hat Europe</i>, Amsterdam, The Netherlands, Nov 2015. 
+<br />
+</p>
+</li>
+
+<!-- Item: PKU2015 -->
+<li ><p>
+<b>Extracting Model from Implementations of Web Authentication Protocols</b>
+<br>
+<i>Peking University</i>, Beijing, China, Oct 2015. 
+<br />
+</p>
+</li>
+
+
+      </ul>
+
+
+<h1> Professional Services </h1>
+<li >
+<b>Program Commitee</b>: The 13th International Symposium on Theoretical Aspects of Software Engineering (TASE 2019)
+<br />
+</li>
+
+<li >
+<b>Program Commitee</b>: The 14th ACM ASIA Conference on Computer and Communications Security (ACM ASIACCS 2019)
+<br />
+</li>
+
+<li >
+<b>Program Commitee Chair</b>: The 3rd Symposium on Distributed Ledger Technology (SDLT3)
+<br />
+</li>
+
+<li >
+<b>Program Commitee Chair</b>: The 22nd International Conference on Engineering of Complex Computer Systems (ICECCS 2017)
+<br />
+</li>
+
+<li >
+<b>Program Commitee</b>: The 20th International Conference on Engineering of Complex Computer Systems (ICECCS 2015)
+<br />
+</li>
+
+<li >
+<b>Program Commitee</b>: Doctoral Symposium at the 20th International Conference on Engineering of Complex Computer Systems
+<br />
+</li>
+
+<li >
+<b>Publication Chair</b>: The 20th International Conference on Engineering of Complex Computer Systems (ICECCS 2015)
+<br />
+</li>
+
+<li >
+<b>Program Commitee</b>: The 4th International Workshop on Engineering Safety and Security Systems (ESSS 2015), co-located with FM 2015
+<br />
+</li>
+
+
+<h1> Invited Reviewer </h1>
+<li> ACM Transactions on Software Engineering and Methodology (TOSEM) </li>
+<li> IEEE Transactions on Information Forensics and Security (TIFS) </li>
+<li> IEEE Transactions on Dependable and Secure Computing (TDSC) </li>
+<li> IEEE Transactions on Parallel and Distributed Systems (TPDS) </li>
+<li> Journal of Parallel and Distributed Computing </li>
+<li> Journal of Formal Aspects of Computing (FAOC) </li>
+<li> Journal of Software and System Modeling </li>
+<li> The Computer Journal </li>
+
+</ul>
+
+
+
+    </div><!-- /.article-wrap -->
+    {% if site.disqus_shortname and page.comments %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}          
+
+</body>
+</html>
