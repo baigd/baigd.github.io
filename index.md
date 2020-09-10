@@ -14,3 +14,16 @@ Previously, I was a Lecturer in Griffith University and an Assistant Professor i
 
 <br>
 <b>Work with me: </b> I am looking for self-motivated PhD students, interns and postdocs. My current focus is on formal methods on security, protocol verification, fuzzing, machine learning and blockchain. If you are interested, please send me an email with your CV. 
+
+<br>
+<b>I am honored to be working with: </b> 
+<ul>
+<li><b>Yanjun Zhang</b> (UQ PhD): Privacy-preserving Machine Learning </li> 
+<li><b>Kulani Mahadewa</b> (NUS PhD): IoT Security </li>
+<li><b>Kailong Wang</b> (NUS PhD, UQ Visiting Scholar): Network Security, Machine Learning on Security </li>
+</ul>
+
+<b>I am honored to have worked with: </b> 
+<ul>
+<li><b>Quanqi Ye</b> (NUS PhD -> ADSC Postdoc): Mobile Security </li>
+</ul>
