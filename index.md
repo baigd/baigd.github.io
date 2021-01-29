@@ -17,6 +17,10 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 <li><b>Mobile Security</b> <a href="https://dl.acm.org/doi/pdf/10.1109/ASE.2019.00017" target="_blank">ASE19</a>, <a href="https://ieeexplore.ieee.org/document/7911333" target="_blank">TSE18</a> </li>
 </ul>
 
+<h3>News</h3>
+[Jan 2021] Our paper on intra-domain fingerprinting is accepted by The Web Conference 2021 (WWW) <br>
+[Jan 2021] I am serving ESORICS'21 as a PC member <br>
+
 <br>
 <b>Work with me: </b> I am looking for self-motivated PhD students, interns and postdocs. My current focus is on formal methods on security, protocol verification, fuzzing, machine learning and blockchain. If you are interested, please send me an email with your CV. 
 
@@ -32,8 +36,4 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 <ul>
 <li><b>Quanqi Ye</b> (NUS PhD -> ADSC Postdoc): Mobile Security </li>
 </ul>
-
-<h3>News</h3>
-[Jan 2021] Our paper on intra-domain fingerprinting is accepted by The Web Conference 2021 (WWW) <br>
-[Jan 2021] I am serving ESORICS'21 as a PC member <br>
 
