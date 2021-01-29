@@ -34,5 +34,5 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 </ul>
 
 <h3>News</h3>
-[Jan 2021] Our paper on intra-domain fingerprinting is accepted by The Web Conference 2021 (WWW) <br>
-[Jan 2021] I am serving ESORICS'21 as a PC member <br>
+[16 Jan 2021] Our paper on intra-domain fingerprinting is accepted by The Web Conference 2021 (WWW) <br>
+[10 Jan 2021] I am serving ESORICS'21 as a PC member <br>
