@@ -34,6 +34,7 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 </ul>
 
 <h3>News</h3>
+[31 May 2021] Our paper on auditing privacy compliance of applet providers is accepted by the 2021 ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) <br>
 [7 May 2021] Our work on privacy compliance of Android apps is presented at <a href="https://www.blackhat.com/asia-21/briefings/schedule/#hey-you-get-off-my-private-data-do-apps-respect-your-privacy-as-they-claim-22323" target="_blank">Black Hat Asia 2021</a> <br>
 [16 Jan 2021] Our paper on intra-domain fingerprinting is accepted by The Web Conference 2021 (WWW) <br>
 [10 Jan 2021] I am serving ESORICS'21 as a PC member <br>
