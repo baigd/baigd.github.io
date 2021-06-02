@@ -24,13 +24,9 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 <b>I am honored to be working with: </b> 
 <ul>
 <li><b>Yanjun Zhang</b> (UQ PhD): Privacy-preserving Machine Learning </li> 
-<li><b>Kulani Mahadewa</b> (NUS PhD): IoT Security </li>
 <li><b>Kailong Wang</b> (NUS PhD, UQ Visiting Scholar): Network Security, Machine Learning on Security </li>
-</ul>
-
-<b>I am honored to have worked with: </b> 
-<ul>
-<li><b>Quanqi Ye</b> (NUS PhD -> ADSC Postdoc): Mobile Security </li>
+<li><b>Kulani Mahadewa</b> (NUS PhD, now Lecture at University of Moratuwa): IoT Security </li>
+<li><b>Quanqi Ye</b> (NUS PhD, now Lecture at Waikato University): Mobile Security </li>
 </ul>
 
 <h3>News</h3>
