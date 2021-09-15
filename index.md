@@ -29,6 +29,41 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 <li><b>Quanqi Ye</b> (NUS PhD, now Lecturer at Waikato University): Mobile Security </li>
 </ul>
 
+<h3>Selected Recent Publications <small>[<a href="{{ site.url/publications }}">more</a>]</small></h3>
+
+<h4>IoT/ICS Security</h4>
+
+<li>
+	<b>Identifying privacy weaknesses from multi-party trigger-action integration platforms</b> [<a href="/files/ISSTA21-Taifu.pdf" target="_blank">PDF</a>] <br>
+	Kulani Mahadewa, Yanjun Zhang, Guangdong Bai, Lei Bu, Zhiqiang Zuo, Dileepa Fernando, Zhenkai Liang, Jin Song Dong <br>
+	<i>The 30th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)</i>, 2021. 
+</li>
+
+<li>
+	<b>Scrutinizing Implementations of Smart Home Integrations</b> [<a href="https://www.comp.nus.edu.sg/~tsunami/papers/TSE-Final.pdf" target="_blank">PDF</a>] <br>
+	Kulani Mahadewa, Kailong Wang, Guangdong Bai, Ling Shi, Yan Liu, Jin Song Dong and Zhenkai Liang <br>
+	<i>IEEE Transactions on Software Engineering (TSE)</i>, 2019.
+</li>
+
+<h4>Privacy & Machine Learning</h4>
+<li>
+	<b>Privacy-Preserving Gradient Descent for Distributed Genome-Wide Analysis</b> <br>
+	Yanjun Zhang, Guangdong Bai, Xue Li, Caitlin Curtis, Chen Chen, Ryan Ko <br>
+	<i>The 26th European Symposium on Research in Computer Security (ESORICS)</i>, 2021.
+</li>
+
+<li>
+	<b>It's Not Just the Site, It's the Contents: Intra-domain Fingerprinting Social Media Websites Through CDN Bursts</b> [<a href="/files/WWW21.pdf" target="_blank">PDF</a>]<br>
+	Kailong Wang, Junzhe Zhang, Guangdong Bai, Ryan Ko, Jin Song Dong <br>
+	<i>The Web Conference (WWW)</i>, 2021.
+</li>
+
+<li>
+	<b>PrivColl: Practical Privacy-Preserving Collaborative Machine Learning</b> [<a href="https://arxiv.org/pdf/2007.06953.pdf" target="_blank">PDF</a>] <br>
+	Yanjun Zhang, Guangdong Bai, Xue Li, Caitlin Curtis, Chen Chen, Ryan K. L. Ko <br>
+	<i>The 25th European Symposium on Research in Computer Security (ESORICS)</i>, 2020.
+</li>
+
 <h3>News</h3>
 [7 Sep 2021] I am serving the Web Conference (WWW)'22 as a PC member <br> 
 [31 May 2021] Our paper on auditing privacy compliance of applet providers is accepted by the 2021 ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) <br>
