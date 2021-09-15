@@ -32,20 +32,20 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 <h3>Selected Recent Publications <small>[<a href="{{ site.url/publications }}">more</a>]</small></h3>
 
 <h4>IoT/ICS Security</h4>
-<li >Kulani Mahadewa, Yanjun Zhang, Guangdong Bai, Lei Bu, Zhiqiang Zuo, Dileepa Fernando, Zhenkai Liang, Jin Song Dong. <b>Identifying privacy weaknesses from multi-party trigger-action integration platforms</b>. <i>The 30th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)</i>, 2021. [<a href="/files/ISSTA21-Taifu.pdf" target="_blank">PDF</a>] 
+<li >Kulani Mahadewa, Yanjun Zhang, Guangdong Bai, Lei Bu, Zhiqiang Zuo, Dileepa Fernando, Zhenkai Liang, Jin Song Dong. <b>Identifying privacy weaknesses from multi-party trigger-action integration platforms</b>. <i>The 30th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)</i>, 2021. <br> [<a href="/files/ISSTA21-Taifu.pdf" target="_blank">PDF</a>] [<a href="https://sites.google.com/view/taifu-demo">Taifu Website</a>]
 </li>
 
-<li >Kulani Mahadewa, Kailong Wang, Guangdong Bai, Ling Shi, Yan Liu, Jin Song Dong and Zhenkai Liang. <b>Scrutinizing Implementations of Smart Home Integrations</b>. <i>IEEE Transactions on Software Engineering (TSE)</i>, 2019. [<a href="https://www.comp.nus.edu.sg/~tsunami/papers/TSE-Final.pdf" target="_blank">PDF</a>] 
+<li >Kulani Mahadewa, Kailong Wang, Guangdong Bai, Ling Shi, Yan Liu, Jin Song Dong and Zhenkai Liang. <b>Scrutinizing Implementations of Smart Home Integrations</b>. <i>IEEE Transactions on Software Engineering (TSE)</i>, 2019. <br> [<a href="https://www.comp.nus.edu.sg/~tsunami/papers/TSE-Final.pdf" target="_blank">PDF</a>] 
 </li>
 
 <h4>Privacy & Machine Learning</h4>
 <li>Yanjun Zhang, Guangdong Bai, Xue Li, Caitlin Curtis, Chen Chen, Ryan Ko. <b>Privacy-Preserving Gradient Descent for Distributed Genome-Wide Analysis</b>. <i>The 26th European Symposium on Research in Computer Security (ESORICS)</i>, 2021.
 </li>
 
-<li>Kailong Wang, Junzhe Zhang, Guangdong Bai, Ryan Ko, Jin Song Dong. <b>It's Not Just the Site, It's the Contents: Intra-domain Fingerprinting Social Media Websites Through CDN Bursts</b> [<a href="/files/WWW21.pdf" target="_blank">PDF</a>]. <i>The Web Conference (WWW)</i>, 2021.
+<li>Kailong Wang, Junzhe Zhang, Guangdong Bai, Ryan Ko, Jin Song Dong. <b>It's Not Just the Site, It's the Contents: Intra-domain Fingerprinting Social Media Websites Through CDN Bursts</b>. <i>The Web Conference (WWW)</i>, 2021. <br> [<a href="/files/WWW21.pdf" target="_blank">PDF</a>] [<a href="https://github.com/ResearchWPF/Intra-domain-WPF" target="_blank">Datasets</a>]
 </li>
 
-<li>Yanjun Zhang, Guangdong Bai, Xue Li, Caitlin Curtis, Chen Chen, Ryan K. L. Ko. <b>PrivColl: Practical Privacy-Preserving Collaborative Machine Learning</b> [<a href="https://arxiv.org/pdf/2007.06953.pdf" target="_blank">PDF</a>]. <i>The 25th European Symposium on Research in Computer Security (ESORICS)</i>, 2020.
+<li>Yanjun Zhang, Guangdong Bai, Xue Li, Caitlin Curtis, Chen Chen, Ryan K. L. Ko. <b>PrivColl: Practical Privacy-Preserving Collaborative Machine Learning</b>. <i>The 25th European Symposium on Research in Computer Security (ESORICS)</i>, 2020. <br> [<a href="https://arxiv.org/pdf/2007.06953.pdf" target="_blank">PDF</a>]
 </li>
 
 <h3>News</h3>
