@@ -13,7 +13,7 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 <b>I am recently working on these areas: </b> 
 <ul>
 <li><b>IoT/ICS Security</b> <a href="/files/ISSTA21-Taifu.pdf" target="_blank">ISSTA21</a>, <a href="https://www.comp.nus.edu.sg/~tsunami/papers/TSE-Final.pdf" target="_blank">TSE19</a>,  <a href="http://www.illinois.adsc.com.sg/papers/acsac17_attestation.pdf" target="_blank">ACSAC17</a> </li> 
-<li><b>Privacy & Machine Learning</b> <a href="/files/WWW21.pdf" target="_blank">WWW21</a>, <a href="https://arxiv.org/pdf/2007.06953.pdf" target="_blank">ESORICS20</a> </li>
+<li><b>Privacy & Machine Learning</b> <a href="/files/ESORICS21_camera.pdf" target="_blank">ESORICS21</a>, <a href="/files/WWW21.pdf" target="_blank">WWW21</a>, <a href="https://arxiv.org/pdf/2007.06953.pdf" target="_blank">ESORICS20</a> </li>
 <li><b>Mobile Security</b> <a href="https://dl.acm.org/doi/pdf/10.1109/ASE.2019.00017" target="_blank">ASE19</a>, <a href="https://ieeexplore.ieee.org/document/7911333" target="_blank">TSE18</a> </li>
 </ul>
 
@@ -39,7 +39,7 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 </li>
 
 <h4>Privacy & Machine Learning</h4>
-<li>Yanjun Zhang, Guangdong Bai, Xue Li, Caitlin Curtis, Chen Chen, Ryan Ko. <b>Privacy-Preserving Gradient Descent for Distributed Genome-Wide Analysis</b>. <i>The 26th European Symposium on Research in Computer Security (ESORICS)</i>, 2021.
+<li>Yanjun Zhang, Guangdong Bai, Xue Li, Caitlin Curtis, Chen Chen, Ryan Ko. <b>Privacy-Preserving Gradient Descent for Distributed Genome-Wide Analysis</b>. <i>The 26th European Symposium on Research in Computer Security (ESORICS)</i>, 2021. <br> [<a href="/files/ESORICS21_camera.pdf" target="_blank">PDF</a>] 
 </li>
 
 <li>Kailong Wang, Junzhe Zhang, Guangdong Bai, Ryan Ko, Jin Song Dong. <b>It's Not Just the Site, It's the Contents: Intra-domain Fingerprinting Social Media Websites Through CDN Bursts</b>. <i>The Web Conference (WWW)</i>, 2021. <br> [<a href="/files/WWW21.pdf" target="_blank">PDF</a>] [<a href="https://github.com/ResearchWPF/Intra-domain-WPF" target="_blank">Datasets</a>]
