@@ -29,7 +29,7 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 <li><b>Quanqi Ye</b> (NUS PhD, now Lecturer at Waikato University): Mobile Security </li>
 </ul>
 
-<h3>Selected Recent Publications <small>[<a href="{{ site.url/publications }}">more</a>]</small></h3>
+<h3>Selected Recent Publications <small>[<a href="/publications">more</a>]</small></h3>
 
 <h4>IoT/ICS Security</h4>
 <li >Kulani Mahadewa, Yanjun Zhang, Guangdong Bai, Lei Bu, Zhiqiang Zuo, Dileepa Fernando, Zhenkai Liang, Jin Song Dong. <b>Identifying privacy weaknesses from multi-party trigger-action integration platforms</b>. <i>The 30th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)</i>, 2021. <br> [<a href="/files/ISSTA21-Taifu.pdf" target="_blank">PDF</a>] [<a href="https://sites.google.com/view/taifu-demo">Taifu Website</a>]
