@@ -1,11 +1,21 @@
 ---
 layout: home2
-title: About
+title: News
 description: "Guangdong's site"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: trees.jpg
 ---
+
+[14 Jan 2022] Our paper on assessing certificate validation of WPA-Enterprise supplicants is accepted by MobiCom 2022. Congrats, Kailong! <br>
+[3 Jan 2022] I am serving ESORICS'22 as a PC member <br>
+[7 Sep 2021] I am serving the Web Conference (WWW)'22 as a PC member <br> 
+[31 May 2021] Our paper on auditing privacy compliance of applet providers is accepted by the 2021 ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) <br>
+[7 May 2021] Our work on privacy compliance of Android apps is presented at <a href="https://www.blackhat.com/asia-21/briefings/schedule/#hey-you-get-off-my-private-data-do-apps-respect-your-privacy-as-they-claim-22323" target="_blank">Black Hat Asia 2021</a> <br>
+[16 Jan 2021] Our paper on intra-domain fingerprinting is accepted by The Web Conference 2021 (WWW) <br>
+[10 Jan 2021] I am serving ESORICS'21 as a PC member <br>
+
+<h1>About</h1>
 
 I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a>, <a href="https://www.uq.edu.au/" target="_blank">The University of Queensland</a>, Australia. I obtained my PhD degree from National University of Singapore, Singapore, and my M.S. and B.S. degrees from Peking University, China. My research interests include Computer Security, Software Engineering and Formal Methods. 
 
@@ -48,11 +58,4 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 <li>Yanjun Zhang, Guangdong Bai, Xue Li, Caitlin Curtis, Chen Chen, Ryan K. L. Ko. <b>PrivColl: Practical Privacy-Preserving Collaborative Machine Learning</b>. <i>The 25th European Symposium on Research in Computer Security (ESORICS)</i>, 2020. <br> [<a href="https://arxiv.org/pdf/2007.06953.pdf" target="_blank">PDF</a>]
 </li>
 
-<h3>News</h3>
-[14 Jan 2022] Our paper on assessing certificate validation of WPA-Enterprise supplicants is accepted by MobiCom 2022. Congrats, Kailong! <br>
-[3 Jan 2022] I am serving ESORICS'22 as a PC member <br>
-[7 Sep 2021] I am serving the Web Conference (WWW)'22 as a PC member <br> 
-[31 May 2021] Our paper on auditing privacy compliance of applet providers is accepted by the 2021 ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) <br>
-[7 May 2021] Our work on privacy compliance of Android apps is presented at <a href="https://www.blackhat.com/asia-21/briefings/schedule/#hey-you-get-off-my-private-data-do-apps-respect-your-privacy-as-they-claim-22323" target="_blank">Black Hat Asia 2021</a> <br>
-[16 Jan 2021] Our paper on intra-domain fingerprinting is accepted by The Web Conference 2021 (WWW) <br>
-[10 Jan 2021] I am serving ESORICS'21 as a PC member <br>
+
