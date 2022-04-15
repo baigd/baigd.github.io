@@ -58,4 +58,12 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 <li>Yanjun Zhang, Guangdong Bai, Xue Li, Caitlin Curtis, Chen Chen, Ryan K. L. Ko. <b>PrivColl: Practical Privacy-Preserving Collaborative Machine Learning</b>. <i>The 25th European Symposium on Research in Computer Security (ESORICS)</i>, 2020. <br> [<a href="https://arxiv.org/pdf/2007.06953.pdf" target="_blank">PDF</a>]
 </li>
 
+<h4>Mobile Security</h4>
+<li>Kailong Wang, Yuwei Zhang, Qing Zhang, Guangdong Bai, Mingchuang Qin, Donghui Zhang, Jin Song Dong. <b>Assessing Certificate Validation User Interfaces of WPA Supplicants</b>. <i>The 28th Annual International Conference on Mobile Computing and Networking (MobiCom)</i>, 2021. <br> [<a href="/files/MobiCom22.pdf" target="_blank">PDF</a>] 
+</li>
 
+<li>Tianming Liu, Haoyu Wang, Li Li, Guangdong Bai, Yao Guo and Guoai Xu. <b>DaPanda: Detecting Aggressive Push Notification in Android Apps</b>. <i>The 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)</i>, 2019. <br> [<a href="https://dl.acm.org/doi/pdf/10.1109/ASE.2019.00017" target="_blank">PDF</a>] 
+</li>
+
+<li>Guangdong Bai, Quanqi Ye, Yongzheng Wu, Heila Botha, Jun Sun, Yang Liu, Jin Song Dong and Willem Visser. <b>Towards Model Checking Android Applications</b>. <i>IEEE Transactions on Software Engineering (TSE), 44(6): 595-612</i>, 2018. <br> [<a href="https://ieeexplore.ieee.org/document/7911333" target="_blank">PDF</a>] 
+</li>
