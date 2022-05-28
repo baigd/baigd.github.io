@@ -7,6 +7,7 @@ image:
   feature: trees.jpg
 ---
 
+[28 May 2022] Dr Yanjun Zhang is joining Deakin University as a Lecturer. Congrats, Yanjun! <br>
 [14 Jan 2022] Our paper on assessing certificate validation of WPA-Enterprise supplicants is accepted by MobiCom 2022. Congrats, Kailong! <br>
 [3 Jan 2022] I am serving ESORICS'22 as a PC member <br>
 [7 Sep 2021] I am serving the Web Conference (WWW)'22 as a PC member <br> 
@@ -33,7 +34,7 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 <br>
 <b>I am honored to be working with: </b> 
 <ul>
-<li><b>Yanjun Zhang</b> (UQ PhD): Privacy-preserving Machine Learning </li> 
+<li><b>Yanjun Zhang</b> (UQ PhD, now Lecturer at Deakin University): Privacy-preserving Machine Learning </li> 
 <li><b>Kailong Wang</b> (NUS PhD, UQ Visiting Scholar): Network Security, Machine Learning on Security </li>
 <li><b>Kulani Mahadewa</b> (NUS PhD, now Lecturer at University of Moratuwa): IoT Security </li>
 <li><b>Quanqi Ye</b> (NUS PhD, now Lecturer at Waikato University): Mobile Security </li>
