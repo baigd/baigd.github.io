@@ -60,7 +60,7 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 </li>
 
 <h4>Mobile Security</h4>
-<li>Kailong Wang, Yuwei Zheng, Qing Zhang, Guangdong Bai, Mingchuang Qin, Donghui Zhang, Jin Song Dong. <b>Assessing Certificate Validation User Interfaces of WPA Supplicants</b>. <i>The 28th Annual International Conference on Mobile Computing and Networking (MobiCom)</i>, 2021. <br> [<a href="/files/MobiCom22.pdf" target="_blank">PDF</a>] 
+<li>Kailong Wang, Yuwei Zheng, Qing Zhang, Guangdong Bai, Mingchuang Qin, Donghui Zhang, Jin Song Dong. <b>Assessing Certificate Validation User Interfaces of WPA Supplicants</b>. <i>The 28th Annual International Conference on Mobile Computing and Networking (MobiCom)</i>, 2022. <br> [<a href="/files/MobiCom22.pdf" target="_blank">PDF</a>] 
 </li>
 
 <li>Tianming Liu, Haoyu Wang, Li Li, Guangdong Bai, Yao Guo and Guoai Xu. <b>DaPanda: Detecting Aggressive Push Notification in Android Apps</b>. <i>The 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)</i>, 2019. <br> [<a href="https://dl.acm.org/doi/pdf/10.1109/ASE.2019.00017" target="_blank">PDF</a>] 
