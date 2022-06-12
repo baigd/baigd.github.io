@@ -7,6 +7,7 @@ image:
   feature: trees.jpg
 ---
 
+[12 Jun 2022] Two papers on dependable learning are accepted by TDSC. Congrats, Yanjun, Huasong! <br>
 [28 May 2022] Dr Yanjun Zhang is joining Deakin University as a Lecturer. Congrats, Yanjun! <br>
 [14 Jan 2022] Our paper on assessing certificate validation of WPA-Enterprise supplicants is accepted by MobiCom 2022. Congrats, Kailong! <br>
 [3 Jan 2022] I am serving ESORICS'22 as a PC member <br>
