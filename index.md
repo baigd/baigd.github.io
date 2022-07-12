@@ -25,7 +25,7 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 <b>I am recently working on these areas: </b> 
 <ul>
 <li><b>IoT/ICS Security</b> <a href="/files/ISSTA21-Taifu.pdf" target="_blank">ISSTA21</a>, <a href="https://www.comp.nus.edu.sg/~tsunami/papers/TSE-Final.pdf" target="_blank">TSE19</a>,  <a href="http://www.illinois.adsc.com.sg/papers/acsac17_attestation.pdf" target="_blank">ACSAC17</a> </li> 
-<li><b>Privacy & Machine Learning</b> <a href="/files/ESORICS21_camera.pdf" target="_blank">ESORICS21</a>, <a href="/files/WWW21.pdf" target="_blank">WWW21</a>, <a href="https://arxiv.org/pdf/2007.06953.pdf" target="_blank">ESORICS20</a> </li>
+<li><b>Privacy & Machine Learning</b> <a href="https://ieeexplore.ieee.org/document/9822964" target="_blank">TDSC22</a>, <a href="/files/ESORICS21_camera.pdf" target="_blank">ESORICS21</a>, <a href="/files/WWW21.pdf" target="_blank">WWW21</a>, <a href="https://arxiv.org/pdf/2007.06953.pdf" target="_blank">ESORICS20</a> </li>
 <li><b>Mobile Security</b> <a href="/files/MobiCom22.pdf" target="_blank">MobiCom22</a>, <a href="https://dl.acm.org/doi/pdf/10.1109/ASE.2019.00017" target="_blank">ASE19</a>, <a href="https://ieeexplore.ieee.org/document/7911333" target="_blank">TSE18</a> </li>
 </ul>
 
