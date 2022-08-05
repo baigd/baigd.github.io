@@ -35,6 +35,13 @@ I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">
 <br>
 <b>I am honored to be working with: </b> 
 <ul>
+<li><b>Mengyao Ma</b> (UQ&DATA61 PhD): Privacy-preserving Machine Learning </li>
+<li><b>Baiqi Chen</b> (UQ&DATA61 PhD): Nudge4Cyber </li>
+<li><b>Liuhuo Wan</b> (UQ PhD): IoT Security </li>
+<li><b>Xinguo Feng</b> (UQ PhD): Security-specific NLP </li>
+<li><b>Fuman Xie</b> (UQ PhD): User Privacy </li>
+<li><b>Hao Guan</b> (UQ&SUSTech PhD, with Dr Yepang Liu): SE4ML </li>  
+<li><b>Huasong Meng</b> (NUS PhD, UQ Visiting Scholar): Reliable Machine Learning </li>  
 <li><b>Yanjun Zhang</b> (UQ PhD, now Lecturer at Deakin University): Privacy-preserving Machine Learning </li> 
 <li><b>Kailong Wang</b> (NUS PhD, UQ Visiting Scholar): Network Security, Machine Learning on Security </li>
 <li><b>Kulani Mahadewa</b> (NUS PhD, now Lecturer at University of Moratuwa): IoT Security </li>
