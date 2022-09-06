@@ -7,7 +7,7 @@ image:
   feature: trees.jpg
 ---
 
-[2 Sep 2022] Three papers on VUI testing and privacy compliance are accepted by ASE'22. Congrats, Fuman, Chuan, Yuxi, Suwan, Yanjun, Kailong! <br>
+[2 Sep 2022] Three papers on VUI testing and privacy compliance are accepted by ASE'22. Congrats, Fuman, Chuan, Yuxi, Suwan, Yanjun, Kailong, and all brilliant collaborators! <br>
 [12 Jun 2022] Two papers on dependable learning are accepted by TDSC. Congrats, Yanjun, Huasong! <br>
 [28 May 2022] Dr Yanjun Zhang is joining Deakin University as a Lecturer. Congrats, Yanjun! <br>
 [14 Jan 2022] Our paper on assessing certificate validation of WPA-Enterprise supplicants is accepted by MobiCom 2022. Congrats, Kailong! <br>
