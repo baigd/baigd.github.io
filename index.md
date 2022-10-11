@@ -8,7 +8,7 @@ image:
 ---
 
 [8 Oct 2022] Our paper on cryptocurrency-themed malicious browser extensions is accepted by SIGMETRICS 2023. Congrats, Kailong, Yuxi! <br>
-[7 Oct 2022] Our paper on Federated Learning is accepted by ACSAC 2023. Congrats, Liyue, Yanjun! <br>
+[7 Oct 2022] Our paper on Federated Learning is accepted by ACSAC 2022. Congrats, Liyue, Yanjun! <br>
 [5 Oct 2022] I am serving the Web Conference (WWW)'23 as a PC member <br> 
 [8 Sep 2022] Our paper on Android permanent device id protection is accepted by NDSS 2023. Congrats, Huasong! <br>
 [2 Sep 2022] Three papers on VUI testing and privacy compliance are accepted by ASE'22. Congrats, Fuman, Chuan, Yuxi, Suwan, Yanjun, Kailong, and all brilliant collaborators! <br>
