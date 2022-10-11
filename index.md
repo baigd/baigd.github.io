@@ -21,6 +21,8 @@ image:
 [16 Jan 2021] Our paper on intra-domain fingerprinting is accepted by The Web Conference 2021 (WWW). Congrats, Kailong! <br>
 [10 Jan 2021] I am serving ESORICS'21 as a PC member <br>
 
+<a class="twitter-timeline" data-height="300" data-theme="light" href="https://twitter.com/baigd?ref_src=twsrc%5Etfw">Tweets by baigd</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <h1>About</h1>
 
 I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a>, <a href="https://www.uq.edu.au/" target="_blank">The University of Queensland</a>, Australia. I obtained my PhD degree from National University of Singapore, Singapore, and my M.S. and B.S. degrees from Peking University, China. My research interests include Computer Security, Software Engineering and Formal Methods. 
