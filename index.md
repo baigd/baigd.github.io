@@ -19,9 +19,9 @@ image:
 [31 May 2021] Our paper on auditing privacy compliance of applet providers is accepted by the 2021 ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA). Congrats, Kulani! <br>
 [7 May 2021] Our work on privacy compliance of Android apps is presented at <a href="https://www.blackhat.com/asia-21/briefings/schedule/#hey-you-get-off-my-private-data-do-apps-respect-your-privacy-as-they-claim-22323" target="_blank">Black Hat Asia 2021</a> <br>
 [16 Jan 2021] Our paper on intra-domain fingerprinting is accepted by The Web Conference 2021 (WWW). Congrats, Kailong! <br>
-[10 Jan 2021] I am serving ESORICS'21 as a PC member <br>
+[10 Jan 2021] I am serving ESORICS'21 as a PC member <br><br>
 
-<a class="twitter-timeline" data-height="300" data-theme="light" href="https://twitter.com/baigd?ref_src=twsrc%5Etfw">Tweets by baigd</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-height="200" data-theme="light" href="https://twitter.com/baigd?ref_src=twsrc%5Etfw">Tweets by baigd</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h1>About</h1>
 
