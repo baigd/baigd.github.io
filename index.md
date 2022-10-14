@@ -15,7 +15,7 @@ image:
 [12 Jun 2022] Two papers on dependable learning are accepted by TDSC. Congrats, Yanjun, Huasong! <br>
 [28 May 2022] Dr Yanjun Zhang is joining Deakin University as a Lecturer. Congrats, Yanjun! <br>
 [14 Jan 2022] Our paper on assessing certificate validation of WPA-Enterprise supplicants is accepted by MobiCom 2022. Congrats, Kailong! <br>
-[3 Jan 2022] I am serving ESORICS'22 as a PC member <br>
+[3 Jan 2022] I am serving ESORICS'22 as a PC member
 <details>
 <summary> <b> >> older news </b> </summary>
   [7 Sep 2021] I am serving the Web Conference (WWW)'22 as a PC member <br> 
@@ -24,7 +24,7 @@ image:
 [16 Jan 2021] Our paper on intra-domain fingerprinting is accepted by The Web Conference 2021 (WWW). Congrats, Kailong! <br>
 [10 Jan 2021] I am serving ESORICS'21 as a PC member <br><br>
 </details>
-
+<br>
 <a class="twitter-timeline" data-height="200" data-theme="light" href="https://twitter.com/baigd?ref_src=twsrc%5Etfw">Tweets by baigd</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h1>About</h1>
