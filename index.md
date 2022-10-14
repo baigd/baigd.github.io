@@ -17,7 +17,7 @@ image:
 [14 Jan 2022] Our paper on assessing certificate validation of WPA-Enterprise supplicants is accepted by MobiCom 2022. Congrats, Kailong! <br>
 [3 Jan 2022] I am serving ESORICS'22 as a PC member <br>
 <details>
-<summary> <h4> >> more old news </h4> </summary>
+<summary> <b> >> older news </b> </summary>
   [7 Sep 2021] I am serving the Web Conference (WWW)'22 as a PC member <br> 
 [31 May 2021] Our paper on auditing privacy compliance of applet providers is accepted by the 2021 ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA). Congrats, Kulani! <br>
 [7 May 2021] Our work on privacy compliance of Android apps is presented at <a href="https://www.blackhat.com/asia-21/briefings/schedule/#hey-you-get-off-my-private-data-do-apps-respect-your-privacy-as-they-claim-22323" target="_blank">Black Hat Asia 2021</a> <br>
