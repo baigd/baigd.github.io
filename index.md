@@ -24,7 +24,7 @@ image:
 [16 Jan 2021] Our paper on intra-domain fingerprinting is accepted by The Web Conference 2021 (WWW). Congrats, Kailong! <br>
 [10 Jan 2021] I am serving ESORICS'21 as a PC member <br><br>
 </details>
-<br>
+
 <a class="twitter-timeline" data-height="200" data-theme="light" href="https://twitter.com/baigd?ref_src=twsrc%5Etfw">Tweets by baigd</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h1>About</h1>
