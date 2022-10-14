@@ -17,7 +17,7 @@ image:
 [14 Jan 2022] Our paper on assessing certificate validation of WPA-Enterprise supplicants is accepted by MobiCom 2022. Congrats, Kailong! <br>
 [3 Jan 2022] I am serving ESORICS'22 as a PC member <br><br>
 
-<a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="oldnews">  + more old news </a>
+<a class="btn btn-primary" data-toggle="collapse" href="#oldnews" role="button" aria-expanded="false" aria-controls="oldnews">  + more old news </a>
  <div class="collapse" id="oldnews">
   [7 Sep 2021] I am serving the Web Conference (WWW)'22 as a PC member <br> 
 [31 May 2021] Our paper on auditing privacy compliance of applet providers is accepted by the 2021 ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA). Congrats, Kulani! <br>
