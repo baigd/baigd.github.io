@@ -7,6 +7,7 @@ image:
   feature: trees.jpg
 ---
 
+[10 Dec 2022] Our paper on machine learning model optimization is accepted by ICSE 2023. Congrats, Hao! <br>
 [8 Oct 2022] Our paper on cryptocurrency-themed malicious browser extensions is accepted by SIGMETRICS 2023. Congrats, Kailong, Yuxi! <br>
 [7 Oct 2022] Our paper on Federated Learning is accepted by ACSAC 2022. Congrats, Liyue, Yanjun! <br>
 [5 Oct 2022] I am serving the Web Conference (WWW)'23 as a PC member <br> 
