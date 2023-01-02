@@ -7,6 +7,7 @@ image:
   feature: trees.jpg
 ---
 
+[15 Dec 2022] I am serving ACM CCS'23 as a PC member
 [10 Dec 2022] Our paper on machine learning model optimization is accepted by ICSE 2023. Congrats, Hao! <br>
 [8 Oct 2022] Our paper on cryptocurrency-themed malicious browser extensions is accepted by SIGMETRICS 2023. Congrats, Kailong, Yuxi! <br>
 [7 Oct 2022] Our paper on Federated Learning is accepted by ACSAC 2022. Congrats, Liyue, Yanjun! <br>
@@ -30,7 +31,7 @@ image:
 
 <h1>About</h1>
 
-I am a Senior Lecturer at <a href="https://www.itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a>, <a href="https://www.uq.edu.au/" target="_blank">The University of Queensland</a>, Australia. I obtained my PhD degree from National University of Singapore, Singapore, and my M.S. and B.S. degrees from Peking University, China. My research interests include Computer Security, Software Engineering and Formal Methods. 
+I am an Associate Professor at <a href="https://www.itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a>, <a href="https://www.uq.edu.au/" target="_blank">The University of Queensland</a>, Australia. I obtained my PhD degree from National University of Singapore, Singapore, and my M.S. and B.S. degrees from Peking University, China. My research interests include Computer Security, Software Engineering and Formal Methods. 
 
 <br>
 <b>I am recently working on these areas: </b> 
