@@ -7,8 +7,8 @@ image:
   feature: trees.jpg
 ---
 
-[15 Dec 2022] I am serving ACM CCS'23 as a PC member <br>
-[13 Dec 2022] I am promoted to Associate Professor (in <a href="https://en.wikipedia.org/wiki/Associate_professor" target="_blank"> commonwealth system</a>) <br>
+[15 Dec 2022] I am serving ACM CCS'23 as a PC member. Please submit your good works! <br>
+[13 Dec 2022] I am promoted to Associate Professor (in <a href="https://en.wikipedia.org/wiki/Associate_professor" target="_blank"> commonwealth system</a>) at UQ <br>
 [10 Dec 2022] Our paper on machine learning model optimization is accepted by ICSE 2023. Congrats, Hao! <br>
 [8 Oct 2022] Our paper on cryptocurrency-themed malicious browser extensions is accepted by SIGMETRICS 2023. Congrats, Kailong, Yuxi! <br>
 [7 Oct 2022] Our paper on Federated Learning is accepted by ACSAC 2022. Congrats, Liyue, Yanjun! <br>
