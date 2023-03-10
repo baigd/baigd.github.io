@@ -63,7 +63,8 @@ I am an Associate Professor at <a href="https://www.itee.uq.edu.au/" target="_bl
 <li><b>Trustworthy and Privacy-preserving Machine Learning</b></li> 
   <ul>
     <li> <a href="/files/ICSE23-MOB.pdf" target="_blank">ML Model Optimization Bugs</a>@ICSE23 </li>
-    <li> <a href="https://ieeexplore.ieee.org/document/9822964" target="_blank">TDSC22</a> </li> 
+    <li> <a href="https://dl.acm.org/doi/abs/10.1145/3564625.3564658" target="_blank">AgrAmplifier</a>@ACSAC22 </li> 
+    <li> <a href="https://ieeexplore.ieee.org/document/9822964" target="_blank">TDSC22</a></li> 
   </ul>
 </ul>
 
