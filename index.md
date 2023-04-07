@@ -8,6 +8,7 @@ image:
 ---
 
 [25 Mar 2023] I serve NDSS'24 as a PC member. Please submit your good works! <br>
+[22 Mar 2023] Two papers are accepted by AsiaCCS'23. Congrats, Baiqi, Mengyao! <br>
 [10 Mar 2023] Dr Kailong Wang joined Huazhong University of Science and Technology as an Associate Professor. Congrats, Kailong! <br>
 [15 Dec 2022] I am serving ACM CCS'23 as a PC member. Please submit your good works! <br>
 [13 Dec 2022] I am promoted to Associate Professor (in <a href="https://en.wikipedia.org/wiki/Associate_professor" target="_blank"> commonwealth system</a>) at UQ <br>
