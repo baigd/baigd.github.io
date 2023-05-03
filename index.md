@@ -19,12 +19,11 @@ image:
 [8 Sep 2022] Our paper on Android permanent device id protection is accepted by NDSS 2023. Congrats, Huasong! <br>
 [2 Sep 2022] Three papers on VUI testing and privacy compliance are accepted by ASE'22. Congrats, Fuman, Chuan, Yuxi, Suwan, Yanjun, Kailong, and all brilliant collaborators! <br>
 [12 Jun 2022] Two papers on dependable learning are accepted by TDSC. Congrats, Yanjun, Huasong! <br>
-[28 May 2022] Dr Yanjun Zhang is joining Deakin University as a Lecturer. Congrats, Yanjun! <br>
-[14 Jan 2022] Our paper on assessing certificate validation of WPA-Enterprise supplicants is accepted by MobiCom 2022. Congrats, Kailong! <br>
-[3 Jan 2022] I am serving ESORICS'22 as a PC member
 <details>
 <summary> <b> >> older news </b> </summary>
-  [7 Sep 2021] I am serving the Web Conference (WWW)'22 as a PC member <br> 
+[14 Jan 2022] Our paper on assessing certificate validation of WPA-Enterprise supplicants is accepted by MobiCom 2022. Congrats, Kailong! <br>
+[3 Jan 2022] I am serving ESORICS'22 as a PC member
+[7 Sep 2021] I am serving the Web Conference (WWW)'22 as a PC member <br> 
 [31 May 2021] Our paper on auditing privacy compliance of applet providers is accepted by the 2021 ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA). Congrats, Kulani! <br>
 [7 May 2021] Our work on privacy compliance of Android apps is presented at <a href="https://www.blackhat.com/asia-21/briefings/schedule/#hey-you-get-off-my-private-data-do-apps-respect-your-privacy-as-they-claim-22323" target="_blank">Black Hat Asia 2021</a> <br>
 [16 Jan 2021] Our paper on intra-domain fingerprinting is accepted by The Web Conference 2021 (WWW). Congrats, Kailong! <br>
@@ -76,10 +75,10 @@ I am an Associate Professor at <a href="https://www.itee.uq.edu.au/" target="_bl
 <b>Work with me: </b> I am looking for self-motivated PhD students, interns and postdocs. My current focus is on formal methods on security, protocol verification, fuzzing, machine learning and blockchain. If you are interested, please send me an email with your CV. 
 
 <br>
-<b>I am honored to be working with: </b> 
+<b>I am honored to be working or have worked with: </b> 
 <ul>
 <li><b>Kailong Wang</b> (NUS PhD, UQ Visiting Scholar, now Associate Professor at Huazhong University of Science and Technology): Network Security, Machine Learning on Security </li>
-<li><b>Yanjun Zhang</b> (UQ PhD, now Lecturer at Deakin University): Privacy-preserving Machine Learning </li> 
 <li><b>Kulani Mahadewa</b> (NUS PhD, now Senior Lecturer at University of Moratuwa): IoT Security </li>
 <li><b>Quanqi Ye</b> (NUS PhD, now Lecturer at Waikato University): Mobile Security </li>
+<li><b>Yanjun Zhang</b> (UQ PhD, now Lecturer at Deakin University): Privacy-preserving Machine Learning </li> 
 </ul>
