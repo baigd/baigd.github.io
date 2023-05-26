@@ -34,7 +34,9 @@ image:
 
 <h1>About</h1>
 
-I am an Associate Professor at <a href="https://www.itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a>, <a href="https://www.uq.edu.au/" target="_blank">The University of Queensland</a>, Australia. I obtained my PhD degree from National University of Singapore, Singapore, and my M.S. and B.S. degrees from Peking University, China. My research interests include Computer Security, Software Engineering and Formal Methods. 
+I am an Associate Professor at <a href="https://www.itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a>, <a href="https://www.uq.edu.au/" target="_blank">The University of Queensland</a>, Australia. I am leading the <a href="https://trustlab.uqcloud.net/" target="_blank">TrustLab@UQ CSS</a>, a team fully devoted to developing theories, techniques, and systems that can guarantee the trustworthiness of complex software and intelligence systems. 
+
+My research interests include Security and Privacy, Software Engineering and Formal Methods. I obtained my PhD degree from National University of Singapore, Singapore, and my M.S. and B.S. degrees from Peking University, China. 
 
 <br>
 <b>I am recently working on these areas: </b> 
@@ -79,6 +81,6 @@ I am an Associate Professor at <a href="https://www.itee.uq.edu.au/" target="_bl
 <ul>
 <li><b>Kailong Wang</b> (NUS PhD, UQ Visiting Scholar, now Associate Professor at Huazhong University of Science and Technology): Network Security, Machine Learning on Security </li>
 <li><b>Kulani Mahadewa</b> (NUS PhD, now Senior Lecturer at University of Moratuwa): IoT Security </li>
-<li><b>Quanqi Ye</b> (NUS PhD, now Lecturer at Waikato University): Mobile Security </li>
 <li><b>Yanjun Zhang</b> (UQ PhD, now Lecturer at Deakin University): Privacy-preserving Machine Learning </li> 
+<li><b>Quanqi Ye</b> (NUS PhD, now Lecturer at Waikato University): Mobile Security </li>
 </ul>
