@@ -6,7 +6,9 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: trees.jpg
 ---
-
+[11 Aug 2023] I serve FSE'24 as a PC member. Please submit your good works! <br>
+[7 Aug 2023] Our paper on privacy compliance is accepted by PETS'23. Congrats, Chuan! <br>
+[20 Jul 2023] I serve TDSC as an associate editor. Please submit your good works! <br>
 [25 Mar 2023] I serve NDSS'24 as a PC member. Please submit your good works! <br>
 [22 Mar 2023] Two papers are accepted by AsiaCCS'23. Congrats, Baiqi, Mengyao! <br>
 [10 Mar 2023] Dr Kailong Wang joined Huazhong University of Science and Technology as an Associate Professor. Congrats, Kailong! <br>
@@ -18,9 +20,9 @@ image:
 [5 Oct 2022] I am serving the Web Conference (WWW)'23 as a PC member <br> 
 [8 Sep 2022] Our paper on Android permanent device id protection is accepted by NDSS 2023. Congrats, Huasong! <br>
 [2 Sep 2022] Three papers on VUI testing and privacy compliance are accepted by ASE'22. Congrats, Fuman, Chuan, Yuxi, Suwan, Yanjun, Kailong, and all brilliant collaborators! <br>
-[12 Jun 2022] Two papers on dependable learning are accepted by TDSC. Congrats, Yanjun, Huasong! <br>
 <details>
 <summary> <b> >> older news </b> </summary>
+[12 Jun 2022] Two papers on dependable learning are accepted by TDSC. Congrats, Yanjun, Huasong! <br>
 [14 Jan 2022] Our paper on assessing certificate validation of WPA-Enterprise supplicants is accepted by MobiCom 2022. Congrats, Kailong! <br>
 [3 Jan 2022] I am serving ESORICS'22 as a PC member <br>
 [7 Sep 2021] I am serving the Web Conference (WWW)'22 as a PC member <br> 
