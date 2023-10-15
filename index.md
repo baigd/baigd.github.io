@@ -6,6 +6,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: trees.jpg
 ---
+[11 Oct 2023] Our paper on user privacy fairness of VPA apps is accepted by ICSE'24. Congrats, Fuman! <br>
 [28 Aug 2023] I serve the Web Conference (WWW)'24 as a PC member. Please submit your good works! <br>
 [11 Aug 2023] I serve FSE'24 as a PC member. Please submit your good works! <br>
 [7 Aug 2023] Our paper on privacy compliance is accepted by PETS'24. Congrats, Chuan! <br>
