@@ -39,6 +39,7 @@ image:
 <h1>About</h1>
 
 I am an Associate Professor at <a href="https://www.itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a>, <a href="https://www.uq.edu.au/" target="_blank">The University of Queensland</a>, Australia. I obtained my PhD degree from National University of Singapore, Singapore, and my M.S. and B.S. degrees from Peking University, China. My research interests include Security and Privacy, Software Engineering and Formal Methods. 
+
 <br>
 I lead the <a href="https://trustlab.uqcloud.net/" target="_blank">TrustLab@UQ CSS</a>, a team fully devoted to developing theories, techniques, and systems that can guarantee the trustworthiness of complex software and intelligence systems. I am an Associate Editor of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858" target="_blank"> IEEE Transactions on Dependable and Secure Computing</a>. 
 
