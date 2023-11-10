@@ -7,6 +7,7 @@ image:
   feature: trees.jpg
 ---
 [10 Nov 2023] Our paper on neural network verification is accepted by POPL'24. Congrats, Zhongkui! <br>
+[1 Nov 2023] I am serving Usenix Security 2024 as a PC member. Please submit your good works! <br>
 [11 Oct 2023] Our paper on user privacy fairness of VPA apps is accepted by ICSE'24. Congrats, Fuman! <br>
 [28 Aug 2023] I serve the Web Conference (WWW)'24 as a PC member. Please submit your good works! <br>
 [11 Aug 2023] I serve FSE'24 as a PC member. Please submit your good works! <br>
@@ -18,13 +19,13 @@ image:
 [15 Dec 2022] I am serving ACM CCS'23 as a PC member. Please submit your good works! <br>
 [13 Dec 2022] I am promoted to Associate Professor (in <a href="https://en.wikipedia.org/wiki/Associate_professor" target="_blank"> commonwealth system</a>) at UQ <br>
 [10 Dec 2022] Our paper on machine learning model optimization is accepted by ICSE 2023. Congrats, Hao! <br>
+<details>
+<summary> <b> >> older news </b> </summary>
 [8 Oct 2022] Our paper on cryptocurrency-themed malicious browser extensions is accepted by SIGMETRICS 2023. Congrats, Kailong, Yuxi! <br>
 [7 Oct 2022] Our paper on Federated Learning is accepted by ACSAC 2022. Congrats, Liyue, Yanjun! <br>
 [5 Oct 2022] I am serving the Web Conference (WWW)'23 as a PC member <br> 
 [8 Sep 2022] Our paper on Android permanent device id protection is accepted by NDSS 2023. Congrats, Huasong! <br>
 [2 Sep 2022] Three papers on VUI testing and privacy compliance are accepted by ASE'22. Congrats, Fuman, Chuan, Yuxi, Suwan, Yanjun, Kailong, and all brilliant collaborators! <br>
-<details>
-<summary> <b> >> older news </b> </summary>
 [12 Jun 2022] Two papers on dependable learning are accepted by TDSC. Congrats, Yanjun, Huasong! <br>
 [14 Jan 2022] Our paper on assessing certificate validation of WPA-Enterprise supplicants is accepted by MobiCom 2022. Congrats, Kailong! <br>
 [3 Jan 2022] I am serving ESORICS'22 as a PC member <br>
