@@ -6,6 +6,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: trees.jpg
 ---
+[15 Dec 2023] I am serving ACM CCS 2024 as a PC member. Please submit your good works! <br>
 [10 Nov 2023] Our paper on neural network verification is accepted by POPL'24. Congrats, Zhongkui! <br>
 [1 Nov 2023] I am serving Usenix Security 2024 as a PC member. Please submit your good works! <br>
 [11 Oct 2023] Our paper on user privacy fairness of VPA apps is accepted by ICSE'24. Congrats, Fuman! <br>
@@ -50,12 +51,16 @@ I lead the <a href="https://trustlab.uqcloud.net/" target="_blank">TrustLab@UQ C
 <ul>
   <li><b>Privacy Compliance of Emerging App Ecosystems</b></li>  
   <ul>
-    <li> <a href="/files/SIGMETRICS23.pdf" target="_blank">SIGMETRICS23</a> </li>
-    <li> <a href="/files/ASE22-Skipper.pdf" target="_blank">Skipper</a>@ASE22 </li>
-    <li> <a href="/files/ASE22-VITAS.pdf" target="_blank">VITAS</a>@ASE22 </li>
-    <li> <a href="/files/ASE22-PPCompliance.pdf" target="_blank">ExtPPCompliance</a>@ASE22 </li>
-    <li> <a href="/files/WWW21.pdf" target="_blank">WPF</a>@WWW21 </li>
+    <li> Virtual Personal Assistant Apps: QuPer@PETS24, <a href="/files/ASE22-Skipper.pdf" target="_blank">Skipper</a>@ASE22, <a href="/files/ASE22-VITAS.pdf" target="_blank">VITAS</a>@ASE22 </li>
+    <li> Browser Apps: <a href="/files/SIGMETRICS23.pdf" target="_blank">SIGMETRICS23</a>, <a href="/files/ASE22-PPCompliance.pdf" target="_blank">ExtPPCompliance</a>@ASE22, <a href="/files/WWW21.pdf" target="_blank">WPF</a>@WWW21 </li>
   </ul>
+
+  <li><b>Trustworthy AI and Privacy-preserving Machine Learning</b></li> 
+    <ul>
+      <li> Robustness Verification: <a href="/files/WraLU-POPL24.pdf" target="_blank">WraLU</a>@POPL24 </li>
+      <li> Model Optimization: <a href="/files/ICSE23-MOB.pdf" target="_blank">ML Model Optimization Bugs</a>@ICSE23 </li>
+      <li> Privacy Preservation: <a href="https://dl.acm.org/doi/abs/10.1145/3564625.3564658" target="_blank">AgrAmplifier</a>@ACSAC22, <a href="https://ieeexplore.ieee.org/document/9822964" target="_blank">TDSC22</a></li> 
+    </ul>
   
   <li><b>Mobile Security</b></li>  
   <ul>
@@ -72,13 +77,7 @@ I lead the <a href="https://trustlab.uqcloud.net/" target="_blank">TrustLab@UQ C
       <li> <a href="http://www.illinois.adsc.com.sg/papers/acsac17_attestation.pdf" target="_blank">ACSAC17</a> </li> 
     </ul>
   
-  <li><b>Trustworthy and Privacy-preserving Machine Learning</b></li> 
-    <ul>
-      <li> <a href="/files/ICSE23-MOB.pdf" target="_blank">ML Model Optimization Bugs</a>@ICSE23 </li>
-      <li> <a href="https://dl.acm.org/doi/abs/10.1145/3564625.3564658" target="_blank">AgrAmplifier</a>@ACSAC22 </li> 
-      <li> <a href="https://ieeexplore.ieee.org/document/9822964" target="_blank">TDSC22</a></li> 
-    </ul>
-</ul>
+  </ul>
 
 <br>
 <b>Work with me: </b> I am looking for self-motivated PhD students, interns and postdocs. My current focus is on formal methods on security, protocol verification, fuzzing, machine learning and blockchain. If you are interested, please send me an email with your CV. 
