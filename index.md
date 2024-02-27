@@ -6,7 +6,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: trees.jpg
 ---
-[15 Feb 2024] Two papers on security of multi-party web collaborative platforms are accepted by WWW'24. Congrats, Liuhuo! <br>
+[15 Feb 2024] Two papers on security and privacy of web-based collaborative platforms are accepted by WWW'24. Congrats, Liuhuo! <br>
 [15 Dec 2023] I am serving ACM CCS 2024 as a PC member. Please submit your good works! <br>
 [10 Nov 2023] Our paper on neural network verification is accepted by POPL'24. Congrats, Zhongkui! <br>
 [1 Nov 2023] I am serving Usenix Security 2024 as a PC member. Please submit your good works! <br>
