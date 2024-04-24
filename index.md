@@ -6,6 +6,8 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: trees.jpg
 ---
+[19 Apr 2024] Our paper on LLM-driven testing is accepted by FSE'24. Congrats, Chuan! <br>
+[16 Apr 2024] Our paper on neuron-level AI model usage control is accepted by Oakland'24. Congrats, Zihan! <br>
 [1 Mar 2024] Our paper on algorithmic purpose limitation for privacy preservation is accepted by USENIX Security'24. Congrats, Shuofeng! <br>
 [15 Feb 2024] Two papers on security and privacy of web-based collaborative platforms are accepted by WWW'24. Congrats, Liuhuo! <br>
 [15 Dec 2023] I am serving ACM CCS 2024 as a PC member. Please submit your good works! <br>
@@ -16,14 +18,14 @@ image:
 [11 Aug 2023] I serve FSE'24 as a PC member. Please submit your good works! <br>
 [7 Aug 2023] Our paper on privacy compliance is accepted by PETS'24. Congrats, Chuan! <br>
 [20 Jul 2023] I serve TDSC as an associate editor. Please submit your good works! <br>
+<details>
+<summary> <b> >> older news </b> </summary>
 [25 Mar 2023] I serve NDSS'24 as a PC member. Please submit your good works! <br>
 [22 Mar 2023] Two papers are accepted by AsiaCCS'23. Congrats, Baiqi, Mengyao! <br>
 [10 Mar 2023] Dr Kailong Wang joined Huazhong University of Science and Technology as an Associate Professor. Congrats, Kailong! <br>
 [15 Dec 2022] I am serving ACM CCS'23 as a PC member. Please submit your good works! <br>
 [13 Dec 2022] I am promoted to Associate Professor (in <a href="https://en.wikipedia.org/wiki/Associate_professor" target="_blank"> commonwealth system</a>) at UQ <br>
 [10 Dec 2022] Our paper on machine learning model optimization is accepted by ICSE 2023. Congrats, Hao! <br>
-<details>
-<summary> <b> >> older news </b> </summary>
 [8 Oct 2022] Our paper on cryptocurrency-themed malicious browser extensions is accepted by SIGMETRICS 2023. Congrats, Kailong, Yuxi! <br>
 [7 Oct 2022] Our paper on Federated Learning is accepted by ACSAC 2022. Congrats, Liyue, Yanjun! <br>
 [5 Oct 2022] I am serving the Web Conference (WWW)'23 as a PC member <br> 
