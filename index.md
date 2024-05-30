@@ -57,10 +57,10 @@ I lead the <a href="https://trustlab.uqcloud.net/" target="_blank">TrustLab@UQ C
   <ul>
     <li> Virtual Personal Assistant Apps: <a href="/files/ICSE24-PICO.pdf" target="_blank">PICO</a>@ICSE24, QuPer@PETS24, <a href="/files/ASE22-Skipper.pdf" target="_blank">Skipper</a>@ASE22, <a href="/files/ASE22-VITAS.pdf" target="_blank">VITAS</a>@ASE22 </li>
     <li> Web-based Apps: <a href="/files/SIGMETRICS23.pdf" target="_blank">SIGMETRICS23</a>, <a href="/files/ASE22-PPCompliance.pdf" target="_blank">ExtPPCompliance</a>@ASE22, <a href="/files/WWW21.pdf" target="_blank">WPF</a>@WWW21 </li>
-    <li> Android: <a href="/files/DopCheck-FSE24.pdf" target="_blank">DopCheck</a>@FSE24, <a href="/files/NDSS23-U2I2.pdf" target="_blank">U2-I2</a>@NDSS23
+    <li> Android: <a href="/files/DopCheck-FSE24.pdf" target="_blank">DopCheck</a>@FSE24, <a href="/files/NDSS23-U2I2.pdf" target="_blank">U2-I2</a>@NDSS23 </li>
   </ul>
-
-  <li><b>Trustworthy and Responsible AI</b></li> 
+  
+<li><b>Trustworthy and Responsible AI</b></li> 
     <ul>
       <li> AI Model Usage Control: <a href="/files/CoreLocker-SP24.pdf" target="_blank">CoreLocker</a>@IEEE S&P24 [<a href="https://www.zihan.com.au/SP24CoreLocker.html">CoreLocker Website</a>]  </li> 
       <li> Robustness Verification: <a href="/files/WraLU-POPL24.pdf" target="_blank">WraLU</a>@POPL24 </li>
@@ -84,7 +84,7 @@ I lead the <a href="https://trustlab.uqcloud.net/" target="_blank">TrustLab@UQ C
     <li> <a href="https://ieeexplore.ieee.org/document/7911333" target="_blank">DroidPF</a>@TSE18 </li>
   </ul>
   
-  </ul>
+ </ul>
 
 <br>
 <b>Work with me: </b> I am looking for self-motivated PhD students, interns and postdocs. My current focus is on formal methods on security, protocol verification, fuzzing, machine learning and blockchain. If you are interested, please send me an email with your CV. 
