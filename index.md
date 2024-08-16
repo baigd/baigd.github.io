@@ -6,6 +6,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: trees.jpg
 ---
+[7 Aug 2024] Our paper on the (in)security of ChatGPT extensions is accepted by ASE'24. Congrats, Chuan! <br>
 [7 Jul 2024] YanHui, our LLM-driven tester for machine learning library bugs is accepted by ISSTA'24. Congrats, Hao! <br>
 [19 Apr 2024] Our paper on LLM-driven testing is accepted by FSE'24. Congrats, Chuan! <br>
 [16 Apr 2024] Our paper on neuron-level AI model usage control is accepted by Oakland'24. Congrats, Zihan! <br>
