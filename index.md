@@ -6,6 +6,8 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: trees.jpg
 ---
+[13 Dec 2024] Our paper on multi-window information leakage on mobile devices is accepted by MobiCom'25. <br>
+[1 Nov 2024] Our ASE paper <i>Exploring ChatGPT App Ecosystem: Distribution, Deployment and Security</i> is awarded ACM SIGSOFT Distinguished Paper. Congrats, Chuan! <br>
 [23 Aug 2024] Our paper on privacy leakage of language models is accepted by CCS'24. Congrats, Xinguo! <br>
 [7 Aug 2024] Our paper on the (in)security of ChatGPT extensions is accepted by ASE'24. Congrats, Chuan! <br>
 [7 Jul 2024] YanHui, our LLM-driven tester for machine learning library bugs is accepted by ISSTA'24. Congrats, Hao! <br>
@@ -15,14 +17,14 @@ image:
 [15 Feb 2024] Two papers on security and privacy of web-based collaborative platforms are accepted by WWW'24. Congrats, Liuhuo! <br>
 [15 Dec 2023] I am serving ACM CCS 2024 as a PC member. Please submit your good works! <br>
 [10 Nov 2023] Our paper on neural network verification is accepted by POPL'24. Congrats, Zhongkui! <br>
+<details>
+<summary> <b> >> older news </b> </summary>
 [1 Nov 2023] I am serving Usenix Security 2024 as a PC member. Please submit your good works! <br>
 [11 Oct 2023] Our paper on user privacy fairness of VPA apps is accepted by ICSE'24. Congrats, Fuman! <br>
 [28 Aug 2023] I serve the Web Conference (WWW)'24 as a PC member. Please submit your good works! <br>
 [11 Aug 2023] I serve FSE'24 as a PC member. Please submit your good works! <br>
 [7 Aug 2023] Our paper on privacy compliance is accepted by PETS'24. Congrats, Chuan! <br>
 [20 Jul 2023] I serve TDSC as an associate editor. Please submit your good works! <br>
-<details>
-<summary> <b> >> older news </b> </summary>
 [25 Mar 2023] I serve NDSS'24 as a PC member. Please submit your good works! <br>
 [22 Mar 2023] Two papers are accepted by AsiaCCS'23. Congrats, Baiqi, Mengyao! <br>
 [10 Mar 2023] Dr Kailong Wang joined Huazhong University of Science and Technology as an Associate Professor. Congrats, Kailong! <br>
@@ -58,6 +60,7 @@ I lead the <a href="https://trustlab.uqcloud.net/" target="_blank">TrustLab@UQ C
 <ul>
   <li><b>Privacy Compliance of Emerging App Ecosystems</b></li>  
   <ul>
+    <li> LLM-based Apps: </li> ASE24 (ACM SIGSOFT Distinguished Paper)
     <li> Virtual Personal Assistant Apps: <a href="/files/ICSE24-PICO.pdf" target="_blank">PICO</a>@ICSE24, QuPer@PETS24, <a href="/files/ASE22-Skipper.pdf" target="_blank">Skipper</a>@ASE22, <a href="/files/ASE22-VITAS.pdf" target="_blank">VITAS</a>@ASE22 </li>
     <li> Web-based Apps: <a href="/files/SIGMETRICS23.pdf" target="_blank">SIGMETRICS23</a>, <a href="/files/ASE22-PPCompliance.pdf" target="_blank">ExtPPCompliance</a>@ASE22, <a href="/files/WWW21.pdf" target="_blank">WPF</a>@WWW21 </li>
     <li> Android: <a href="/files/DopCheck-FSE24.pdf" target="_blank">DopCheck</a>@FSE24, <a href="/files/NDSS23-U2I2.pdf" target="_blank">U2-I2</a>@NDSS23 </li>
