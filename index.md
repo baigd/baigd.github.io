@@ -7,6 +7,7 @@ image:
   feature: trees.jpg
 ---
 [13 Dec 2024] Our paper on multi-window information leakage on mobile devices is accepted by MobiCom'25. <br>
+[1 Dec 2024] Zihan Wang is awarded <a href="https://research.google/programs-and-events/phd-fellowship/recipients" target="_blank"> Google PhD Fellowship 2024</a>. Congrats, Zihan! <br>
 [1 Nov 2024] Our ASE paper <i>Exploring ChatGPT App Ecosystem: Distribution, Deployment and Security</i> is awarded ACM SIGSOFT Distinguished Paper. Congrats, Chuan! <br>
 [23 Aug 2024] Our paper on privacy leakage of language models is accepted by CCS'24. Congrats, Xinguo! <br>
 [7 Aug 2024] Our paper on the (in)security of ChatGPT extensions is accepted by ASE'24. Congrats, Chuan! <br>
