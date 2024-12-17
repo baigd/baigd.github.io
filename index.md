@@ -60,7 +60,7 @@ I lead the <a href="https://trustlab.uqcloud.net/" target="_blank">TrustLab@UQ C
 <ul>
   <li><b>Privacy Compliance of Emerging App Ecosystems</b></li>  
   <ul>
-    <li> LLM-based Apps: </li> ASE24 (ACM SIGSOFT Distinguished Paper)
+    <li> LLM-based Apps: ASE24 (ACM SIGSOFT Distinguished Paper) </li>
     <li> Virtual Personal Assistant Apps: <a href="/files/ICSE24-PICO.pdf" target="_blank">PICO</a>@ICSE24, QuPer@PETS24, <a href="/files/ASE22-Skipper.pdf" target="_blank">Skipper</a>@ASE22, <a href="/files/ASE22-VITAS.pdf" target="_blank">VITAS</a>@ASE22 </li>
     <li> Web-based Apps: <a href="/files/SIGMETRICS23.pdf" target="_blank">SIGMETRICS23</a>, <a href="/files/ASE22-PPCompliance.pdf" target="_blank">ExtPPCompliance</a>@ASE22, <a href="/files/WWW21.pdf" target="_blank">WPF</a>@WWW21 </li>
     <li> Android: <a href="/files/DopCheck-FSE24.pdf" target="_blank">DopCheck</a>@FSE24, <a href="/files/NDSS23-U2I2.pdf" target="_blank">U2-I2</a>@NDSS23 </li>
