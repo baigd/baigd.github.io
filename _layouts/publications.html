@@ -1,0 +1,2144 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="page">
+<style>
+    /*********************************
+     The list of publication items
+     *********************************/
+/* The list of items */
+.biblist { }
+
+/* The item */
+.biblist li { }
+
+/* You can define custom styles for plstyle field here. */
+
+
+/*************************************
+ The box that contain BibTeX code
+ o************************************/
+div.noshow { display: none; }
+div.bibtex {
+	margin-right: 0%;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+	border: 1px solid silver;
+	padding: 0em 1em;
+	background: #ffffee;
+}
+div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
+<script type="text/javascript">
+    <!--
+    // Toggle Display of BibTeX
+    function toggleBibtex(articleid) {
+        var bib = document.getElementById('bib_'+articleid);
+        if (bib) {
+            if(bib.className.indexOf('bibtex') != -1) {
+                bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
+            }
+        } else {
+            return;
+        }
+    }
+-->
+    </script>
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+      {{ content }}
+
+
+<ol class="biblist">
+
+<h3 style="margin-bottom:10px;padding-top:10px;">2024</h3>
+
+
+<!-- Item: CCS2024 -->	
+<li ><p>
+Xinguo Feng, Zhongkui Ma, Zihan Wang, Chegne Eu Joe, Mengyao Ma, Alsharif Abuadbba, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>Uncovering Gradient Inversion Risks in Practical Language Model Training
+</b> 
+<br>
+<i>ACM Computer and Communications Security Conference (CCS)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('CCS2024')">[BibTeX]</a>
+<a href="/files/CCS24.pdf" >[PDF]</a>
+</p>
+<div id="bib_CCS2024" class="bibtex noshow">
+<pre>
+@inproceedings{CCS2024,
+author = {Feng, Xinguo and Ma, Zhongkui and Wang, Zihan and Chegne, Eu Joe and Ma, Mengyao and Abuadbba, Alsharif and Bai, Guangdong},
+title = {Uncovering Gradient Inversion Risks in Practical Language Model Training},
+year = {2024},
+isbn = {9798400706363},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3658644.3690292},
+doi = {10.1145/3658644.3690292},
+booktitle = {Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security (CCS)},
+pages = {3525–3539},
+numpages = {15},
+location = {Salt Lake City, UT, USA},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: ASE2024 -->	
+<li ><p>
+Chuan Yan, Ruomai Ren, Mark Huasong Meng, Liuhuo Wan, Tian Yang Ooi, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>Exploring ChatGPT App Ecosystem: Distribution, Deployment and Security
+</b> 
+<br>
+<i>IEEE/ACM International Conference on Automated Software Engineering (ASE)</i>, 2024.
+<br />
+<font color="red"> <b> ACM SIGSOFT Distinguished Paper Award </b></font>
+<a href="javascript:toggleBibtex('ASE2024')">[BibTeX]</a>
+<a href="/files/ASE24.pdf" >[PDF]</a>
+</p>
+<div id="bib_ASE2024" class="bibtex noshow">
+<pre>
+@inproceedings{ASE2024,
+author = {Yan, Chuan and Ren, Ruomai and Meng, Mark Huasong and Wan, Liuhuo and Ooi, Tian Yang and Bai, Guangdong},
+title = {Exploring ChatGPT App Ecosystem: Distribution, Deployment and Security},
+year = {2024},
+isbn = {9798400712487},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3691620.3695510},
+doi = {10.1145/3691620.3695510},
+booktitle = {Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+pages = {1370–1382},
+numpages = {13},
+location = {Sacramento, CA, USA},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: ISSTA2024 -->	
+<li ><p>
+Hao Guan, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Yepang Liu</span>
+<br>
+<b>Large Language Models Can Connect the Dots: Exploring Model Optimization Bugs with Domain Knowledge-Aware Prompts
+</b> 
+<br>
+<i>The 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('ISSTA2024')">[BibTeX]</a>
+<a href="/files/ISSTA24.pdf" >[PDF]</a>
+</p>
+<div id="bib_ISSTA2024" class="bibtex noshow">
+<pre>
+@inproceedings{ISSTA2024,
+author = {Guan, Hao and Bai, Guangdong and Liu, Yepang},
+title = {Large Language Models Can Connect the Dots: Exploring Model Optimization Bugs with Domain Knowledge-Aware Prompts},
+year = {2024},
+isbn = {9798400706127},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3650212.3680383},
+doi = {10.1145/3650212.3680383},
+booktitle = {Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)},
+pages = {1579–1591},
+numpages = {13},
+location = {Vienna, Austria},
+series = {ISSTA 2024}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: ISSRE2024 -->	
+<li ><p>
+Shishuai Yang, Guangdong Bai, Ruoyan Lin, Jialong Guo, Wenrui Diao</span>
+<br>
+<b>Beyond the Horizon: Exploring Cross-Market Security Discrepancies in Parallel Android Apps
+</b> 
+<br>
+<i>IEEE International Symposium on Software Reliability Engineering (ISSRE)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('ISSRE2024')">[BibTeX]</a>
+<a href="/files/ISSRE24.pdf" >[PDF]</a>
+</p>
+<div id="bib_ISSRE2024" class="bibtex noshow">
+<pre>
+@inproceedings{ISSRE2024,
+author = {Yang, Shishuai and Bai, Guangdong and Lin, Ruoyan and Guo, Jialong and Diao, Wenrui},
+title = {Beyond the Horizon: Exploring Cross-Market Security Discrepancies in Parallel Android Apps},
+booktitle={2024 IEEE 35th International Symposium on Software Reliability Engineering (ISSRE)}, 
+year={2024},
+volume={},
+number={},
+pages={558-569},
+doi={10.1109/ISSRE62328.2024.00059}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: CIKM2024 -->	
+<li ><p>
+Mengyao Ma, Shuofeng Liu, MAP Chamikara, Mohan Baruwal Chhetri, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>Unveiling Intellectual Property Vulnerabilities of GAN-Based Distributed Machine Learning through Model Extraction Attacks
+</b> 
+<br>
+<i>The 33rd ACM International Conference on Information and Knowledge Management (CIKM)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('CIKM2024')">[BibTeX]</a>
+<a href="/files/CIKM24.pdf" >[PDF]</a>
+</p>
+<div id="bib_CIKM2024" class="bibtex noshow">
+<pre>
+@inproceedings{CIKM2024,
+author = {Ma, Mengyao and Liu, Shuofeng and M.A.P. Chamikara and Baruwal Chhetri, Mohan and Bai, Guangdong},
+title = {Unveiling Intellectual Property Vulnerabilities of GAN-Based Distributed Machine Learning through Model Extraction Attacks},
+year = {2024},
+isbn = {9798400704369},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3627673.3679850},
+doi = {10.1145/3627673.3679850},
+booktitle = {Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM)},
+pages = {1617–1626},
+numpages = {10},
+location = {Boise, ID, USA},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: SIGIR2024 -->	
+<li ><p>
+Peng-Fei Zhang, Zi Huang, Guangdong Bai
+<br>
+<b>Universal adversarial perturbations for vision-language pre-trained models
+</b> 
+<br>
+<i>The 47th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('SIGIR2024')">[BibTeX]</a>
+<a href="/files/SIGIR24.pdf" >[PDF]</a>
+</p>
+<div id="bib_SIGIR2024" class="bibtex noshow">
+<pre>
+@inproceedings{SIGIR2024,
+author = {Zhang, Peng-Fei and Huang, Zi and Bai, Guangdong},
+title = {Universal Adversarial Perturbations for Vision-Language Pre-trained Models},
+year = {2024},
+isbn = {9798400704314},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3626772.3657781},
+doi = {10.1145/3626772.3657781},
+booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)},
+pages = {862–871},
+numpages = {10},
+location = {Washington DC, USA},
+series = {SIGIR '24}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: Usenix2024 -->	
+<li ><p>
+Shuofeng Liu, Zihan Wang, Minhui Xue, Long Wang, Yuanchao Zhang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>Being Transparent is Merely the Beginning: Enforcing Purpose Limitation with Polynomial Approximation
+</b> 
+<br>
+<i>USENIX Security Symposium (USENIX Security) </i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('Usenix2024')">[BibTeX]</a>
+<a href="https://www.usenix.org/system/files/sec24fall-prepub-2516-liu-shuofeng.pdf" >[PDF]</a>
+</p>
+<div id="bib_Usenix2024" class="bibtex noshow">
+<pre>
+@inproceedings{Usenix2024,
+author = {Liu, Shuofeng and Wang, Zihan and Wang, Long and Zhang, Yuanchao and Bai, Guangdong},
+title = {Being Transparent is Merely the Beginning: Enforcing Purpose Limitation with Polynomial Approximation},
+year = {2024},
+booktitle = {33rd USENIX Security Symposium (USENIX Security)},
+</pre>
+</div>
+</li>
+
+<!-- Item: FSE2024 -->	
+<li ><p>
+Chuan Yan, Mark Huasong Meng, Fuman Xie, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>Investigating Documented Privacy Changes in Android OS
+</b> 
+<br>
+<i>ACM International Conference on the Foundations of Software Engineering (FSE)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('FSE2024')">[BibTeX]</a>
+<a href="/files/FSE24.pdf" >[PDF]</a>
+</p>
+<div id="bib_FSE2024" class="bibtex noshow">
+<pre>
+@article{FSE2024,
+author = {Yan, Chuan and Meng, Mark Huasong and Xie, Fuman and Bai, Guangdong},
+title = {Investigating Documented Privacy Changes in Android OS},
+year = {2024},
+issue_date = {July 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {1},
+number = {FSE},
+url = {https://doi.org/10.1145/3660826},
+doi = {10.1145/3660826},
+journal = {Proc. ACM Softw. Eng.},
+month = {jul},
+articleno = {119},
+numpages = {24},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: SP2024 -->	
+<li ><p>
+Zihan Wang, Zhongkui Ma, Xinguo Feng, Ruoxi Sun, Hu Wang, Minhui Xue, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>CoreLocker: Neuron-level Usage Control
+</b> 
+<br>
+<i>IEEE Symposium on Security and Privacy (S&P)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('SP2024')">[BibTeX]</a>
+<a href="/files/SP24-CoreLocker.pdf" >[PDF]</a>
+</p>
+<div id="bib_SP2024" class="bibtex noshow">
+<pre>
+@INPROCEEDINGS{SP2024,
+author = {Zihan Wang and Zhongkui Ma and Xinguo Feng and Ruoxi Sun and Hu Wang and Minhui Xue and Guangdong Bai},
+booktitle = {2024 IEEE Symposium on Security and Privacy (SP)},
+title = {CoreLocker: Neuron-level Usage Control},
+year = {2024},
+volume = {},
+issn = {2375-1207},
+doi = {10.1109/SP54263.2024.00233},
+url = {https://doi.ieeecomputersociety.org/10.1109/SP54263.2024.00233},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {may}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: WWW2024-2 -->	
+<li ><p>
+Liuhuo Wan, Kailong Wang, Kulani Tharaka Mahadewa, Haoyu Wang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>Don't bite off more than you can chew: Investigating Excessive Permission Requests in Trigger-Action Integrations
+</b> 
+<br>
+<i>The Web Conference (WWW)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('WWW2024-2')">[BibTeX]</a>
+<a href="/files/WWW24-PFCon.pdf" >[PDF]</a>
+</p>
+<div id="bib_WWW2024-2" class="bibtex noshow">
+<pre>
+@inproceedings{WWW2024-2,
+author = {Wan, Liuhuo and Wang, Kailong and Mahadewa, Kulani and Wang, Haoyu and Bai, Guangdong},
+title = {Don't Bite Off More than You Can Chew: Investigating Excessive Permission Requests in Trigger-Action Integrations},
+year = {2024},
+isbn = {9798400701719},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3589334.3645721},
+doi = {10.1145/3589334.3645721},
+booktitle = {Proceedings of the ACM on Web Conference 2024},
+pages = {3106–3116},
+numpages = {11},
+location = {Singapore, Singapore},
+series = {WWW '24}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: WWW2024-1 -->	
+<li ><p>
+Liuhuo Wan, Kailong Wang, Haoyu Wang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>Is it safe to share your files? An Empirical Security Analysis of Google Workspace
+</b> 
+<br>
+<i>The Web Conference (WWW)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('WWW2024-1')">[BibTeX]</a>
+<a href="/files/WWW24-BCP.pdf" >[PDF]</a>
+</p>
+<div id="bib_WWW2024-1" class="bibtex noshow">
+<pre>
+@inproceedings{WWW2024-1,
+author = {Wan, Liuhuo and Wang, Kailong and Wang, Haoyu and Bai, Guangdong},
+title = {Is It Safe to Share Your Files? An Empirical Security Analysis of Google Workspace},
+year = {2024},
+isbn = {9798400701719},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3589334.3645697},
+doi = {10.1145/3589334.3645697},
+booktitle = {Proceedings of the ACM on Web Conference 2024},
+pages = {1892–1901},
+numpages = {10},
+keywords = {Google workspace, add-ons, security vulnerabilities, sharing},
+location = {Singapore, Singapore},
+series = {WWW '24}
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: TOSEM2024 -->	
+<li ><p>
+Baijun Cheng, Shengming Zhao, Kailong Wang, Meizhen Wang, Guangdong Bai, Ruitao Feng, Yao Guo, Lei Ma, Haoyu Wang</span>
+<br>
+<b>Beyond Fidelity: Explaining Vulnerability Localization of Learning-based Detectors
+</b> 
+<br>
+<i>ACM Transactions on Software Engineering and Methodology (TOSEM)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('TOSEM2024')">[BibTeX]</a>
+<a href="/files/TOSEM24.pdf" >[PDF]</a>
+</p>
+<div id="bib_TOSEM2024" class="bibtex noshow">
+<pre>
+@article{10.1145/3641543,
+author = {Cheng, Baijun and Zhao, Shengming and Wang, Kailong and Wang, Meizhen and Bai, Guangdong and Feng, Ruitao and Guo, Yao and Ma, Lei and Wang, Haoyu},
+title = {Beyond Fidelity: Explaining Vulnerability Localization of Learning-Based Detectors},
+year = {2024},
+issue_date = {June 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {33},
+number = {5},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3641543},
+doi = {10.1145/3641543},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = {jun},
+articleno = {127},
+numpages = {33},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: POPL2024 -->	
+<li ><p>
+Zhongkui Ma, Jiaying Li, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>ReLU Hull Approximation
+</b> 
+<br>
+<i>The 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('POPL2024')">[BibTeX]</a>
+<a href="/files/WraLU-POPL24.pdf" >[PDF]</a>
+</p>
+<div id="bib_POPL2024" class="bibtex noshow">
+<pre>
+@article{10.1145/3632917,
+author = {Ma, Zhongkui and Li, Jiaying and Bai, Guangdong},
+title = {ReLU Hull Approximation},
+year = {2024},
+issue_date = {January 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {8},
+number = {POPL},
+url = {https://doi.org/10.1145/3632917},
+doi = {10.1145/3632917},
+journal = {Proc. ACM Program. Lang.},
+month = {jan},
+articleno = {75},
+numpages = {28},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: ICSE2024 -->	
+<li ><p>
+Fuman Xie, Chuan Yan, Mark Huasong Meng, Shaoming Teng, Yanjun Zhang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>Are Your Requests Your True Needs? Checking Excessive Data Collection in VPA Apps
+</b> 
+<br>
+<i>The 46th International Conference on Software Engineering (ICSE)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('ICSE2024')">[BibTeX]</a>
+<a href="/files/ICSE24-PICO.pdf" >[PDF]</a>
+</p>
+<div id="bib_ICSE2024" class="bibtex noshow">
+<pre>
+@inproceedings{10.1145/3597503.3639107,
+author = {Xie, Fuman and Yan, Chuan and Meng, Mark Huasong and Teng, Shaoming and Zhang, Yanjun and Bai, Guangdong},
+title = {Are Your Requests Your True Needs? Checking Excessive Data Collection in VPA App},
+year = {2024},
+isbn = {9798400702174},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3597503.3639107},
+doi = {10.1145/3597503.3639107},
+booktitle = {Proceedings of the IEEE/ACM 46th International Conference on Software Engineering},
+articleno = {205},
+numpages = {12},
+location = {Lisbon, Portugal},
+series = {ICSE '24}
+}
+</pre>
+</div>
+</li>
+	
+<!-- Item: PETS2024 -->	
+<li ><p>
+Chuan Yan, Fuman Xie, Mark Huasong Meng, Yanjun Zhang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>On the Quality of Privacy Policy Documents of Virtual Personal Assistant Applications</b> 
+<br>
+<i>The 24th Privacy Enhancing Technologies Symposium (PETS)</i>, 2024.
+<br />
+
+<a href="javascript:toggleBibtex('PETS2024')">[BibTeX]</a>
+<a href="/files/PETS24.pdf" >[PDF]</a>
+</p>
+<div id="bib_PETS2024" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+	
+<h3 style="margin-bottom:10px;padding-top:10px;">2023</h3>
+
+<!-- Item: ASE2023 -->	
+<li ><p>
+Shi Meng, Liu Wang, Shenao Wang, Kailong Wang, Xusheng Xiao, Guangdong Bai, Haoyu Wang
+<br>
+<b>WeMinT: Tainting Sensitive Data Leaks in WeChat Mini-Programs</b> 
+<br>
+<i>The 38th IEEE/ACM International Conference on Automated Software Engineering (ASE) </i>, 2023.
+<br />
+
+<a href="javascript:toggleBibtex('ASE2023')">[BibTeX]</a>
+<a href="/files/ASE23.pdf" >[PDF]</a>
+</p>
+<div id="bib_ASE2023" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>	
+
+<!-- Item: ISSTA2023 -->	
+<li ><p>
+Lei Bu, Qiuping Zhang, Suwan Li, Jinglin Dai, Guangdong Bai, Kai Chen, Xuandong Li
+<br>
+<b>Security Checking of Trigger-Action-Programming Smart Home Integrations</b> 
+<br>
+<i>The 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA) </i>, 2023.
+<br />
+
+<a href="javascript:toggleBibtex('ISSTA2023')">[BibTeX]</a>
+<a href="/files/ISSTA23.pdf" >[PDF]</a>
+</p>
+<div id="bib_ISSTA2023" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+	
+<!-- Item: AsiaCCS2023-2 -->	
+<li ><p>
+Baiqi Chen, Tingmin Wu, Yanjun Zhang, Mohan Baruwal Chhetri, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>Investigating Users' Understanding of Privacy Policies of Virtual Personal Assistant Applications</b> 
+<br>
+<i>The 18th ACM ASIA Conference on Computer and Communications Security (ASIACCS) </i>, 2023.
+<br />
+
+<a href="javascript:toggleBibtex('AsiaCCS2023-2')">[BibTeX]</a>
+<a href="/files/AsiaCCS23_2.pdf" >[PDF]</a>
+</p>
+<div id="bib_AsiaCCS2023-2" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+	
+<!-- Item: AsiaCCS2023-1 -->	
+<li ><p>
+Mengyao Ma, Yanjun Zhang, Leo Yu Zhang, Pathum Chamikara Mahawaga Arachchige, Mohan Baruwal Chhetri, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>LoDen: Making Every Client in Federated Learning a Defender Against the Poisoning Membership Inference Attacks</b> 
+<br>
+<i>The 18th ACM ASIA Conference on Computer and Communications Security (ASIACCS) </i>, 2023.
+<br />
+
+<a href="javascript:toggleBibtex('AsiaCCS2023-1')">[BibTeX]</a>
+<a href="/files/AsiaCCS23_1.pdf" >[PDF]</a>
+</p>
+<div id="bib_AsiaCCS2023-1" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+<!-- Item: WWW2023 -->	
+<li ><p>
+Yanjun Zhang, Guangdong Bai, Mahawaga Arachchige Pathum Chamikara, Mengyao Ma, Liyue Shen, Jingwei Wang, Surya Nepal, Minhui Xue, Long Wang, Joseph Liu
+<br>
+<b>AgrEvader: Poisoning Membership Inference against Byzantine-robust Federated Learning</b> 
+<br>
+<i>The ACM Web Conference (WWW) </i>, 2023.
+<br />
+
+<a href="javascript:toggleBibtex('WWW2023')">[BibTeX]</a>
+<a href="/files/WWW23.pdf" >[PDF]</a>
+</p>
+<div id="bib_WWW2023" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+<!-- Item: PAKDD2023 -->	
+<li ><p>
+Mark Huasong Meng, Sin Gee Teo, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Kailong Wang, and Jin Song Dong
+<br>
+<b>Enhancing Federated Learning Robustness using Data-Agnostic Model Pruning</b> 
+<br>
+<i>Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD) </i>, 2023.
+<br />
+
+<a href="javascript:toggleBibtex('PAKDD2023')">[BibTeX]</a>
+<a href="/files/PAKDD23.pdf" >[PDF]</a>
+</p>
+<div id="bib_PAKDD2023" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+	
+<!-- Item: ICSE2023 -->	
+<li ><p>
+Hao Guan, Ying Xiao, Jiaying Li, Yepang Liu, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>A Comprehensive Study of Real-World Bugs in Machine Learning Model Optimization</b> 
+<br>
+<i>The International Conference on Software Engineering (ICSE) </i>, 2023.
+<br />
+
+<a href="javascript:toggleBibtex('ICSE2023')">[BibTeX]</a>
+<a href="/files/ICSE23-MOB.pdf" >[PDF]</a>
+</p>
+<div id="bib_ICSE2023" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+<!-- Item: NDSS2023 -->	
+<li ><p>
+Mark Huasong Meng, Qing Zhang, Guangshuai Xia, Yuwei Zheng, Yanjun Zhang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Zhi Liu, Sin Gee Teo, Jin Song Dong 
+<br>
+<b>Post-GDPR Threat Hunting on Android Phones: Dissecting OS-level Safeguards of User-unresettable Identifiers</b> 
+<br>
+<i>The Network and Distributed System Security Symposium (NDSS) </i>, 2023.
+<br />
+
+<a href="javascript:toggleBibtex('NDSS2023')">[BibTeX]</a>
+<a href="/files/NDSS23-U2I2.pdf" >[PDF]</a>
+</p>
+<div id="bib_NDSS2023" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+<!-- Item: SIGMETRICS2023 -->	
+<li ><p>
+Kailong Wang, Yuxi Ling, Yanjun Zhang, Zhou Yu, Haoyu Wang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Beng Chin Ooi, Jin Song Dong
+<br>
+<b>Characterizing Cryptocurrency-themed Malicious Browser Extensions</b> 
+<br>
+<i>ACM SIGMETRICS</i>, 2023.
+<br />
+
+<a href="javascript:toggleBibtex('SIGMETRICS2023')">[BibTeX]</a>
+<a href="/files/SIGMETRICS23.pdf" >[PDF]</a>
+</p>
+<div id="bib_SIGMETRICS2023" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+	
+<h3 style="margin-bottom:10px;padding-top:10px;">2022</h3>
+	
+<!-- Item: ACSAC2022 -->	
+<li ><p>
+Liyue Shen, Yanjun Zhang, Jingwei Wang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>Better Together: Attaining the Triad of Byzantine-robust Federated Learning via Local Update Amplification</b> 
+<br>
+<i>The Annual Computer Security Applications Conference (ACSAC)</i>, 2022.
+<br />
+
+<a href="javascript:toggleBibtex('ACSAC2022')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_ACSAC2022" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+	
+	
+<!-- Item: ASE2022-1 -->	
+<li ><p>
+Fuman Xie, Yanjun Zhang, Chuan Yan, Suwan Li, Lei Bu, Kai Chen, Zi Huang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>Scrutinizing Privacy Policy Compliance of Virtual Personal Assistant Apps</b> 
+<br>
+<i>The 37th IEEE/ACM International Conference on Automated Software Engineering (ASE)</i>, 2022.
+<br />
+
+<a href="javascript:toggleBibtex('ASE2022-1')">[BibTeX]</a>
+<a href="/files/ASE22-Skipper.pdf" >[PDF]</a>
+</p>
+<div id="bib_ASE2022-1" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+	
+<!-- Item: ASE2022-2 -->	
+<li ><p>
+Suwan Li, Lei Bu, Guangdong Bai, Zhixiu Guo, Kai Chen, Hanlin Wei
+<br>
+<b>VITAS: Guided Model-based VUI Testing of VPA Apps</b> 
+<br>
+<i>The 37th IEEE/ACM International Conference on Automated Software Engineering (ASE)</i>, 2022.
+<br />
+
+<a href="javascript:toggleBibtex('ASE2022-2')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_ASE2022-2" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+	
+<!-- Item: ASE2022-3 -->	
+<li ><p>
+Yuxin Ling, Kailong Wang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Haoyu Wang, Jin Song Dong
+<br>
+<b>Are They Toeing the Line? Diagnosing Privacy Compliance Violations among Browser Extensions</b> 
+<br>
+<i>The 37th IEEE/ACM International Conference on Automated Software Engineering (ASE)</i>, 2022.
+<br />
+
+<a href="javascript:toggleBibtex('ASE2022-3')">[BibTeX]</a>
+<a href="/files/ASE22-PPCompliance.pdf" >[PDF]</a>
+</p>
+<div id="bib_ASE2022-3" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+	
+<!-- Item: MM2022-1 -->
+<li ><p>
+Peng-Fei Zhang, Zi Huang, Guangdong Bai, Xin-Shun Xu
+<br>
+<b>IDEAL: High-Order-Ensemble Adaptation Network for Learning with Noisy Labels</b> 
+<br>
+<i>The 30th ACM International Conference on Multimedia (MM)</i>, 2022.
+<br />
+
+<a href="javascript:toggleBibtex('MM2022-1')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_MM2022-1" class="bibtex noshow">
+<pre>
+@inproceedings{MM2022-1,
+author = {Zhang, Peng-Fei and Huang, Zi and Bai, Guangdong and Xu, Xin-Shun},
+title = {IDEAL: High-Order-Ensemble Adaptation Network for Learning with Noisy Labels},
+year = {2022},
+booktitle = {Proceedings of the 30th ACM International Conference on Multimedia (MM)},
+pages = {325–333},
+numpages = {9},
+}
+</pre>
+</div>
+</li>	
+	
+<!-- Item: MM2022-2 -->
+<li ><p>
+Peng-Fei Zhang, Guangdong Bai, Zi Huang, Xin-Shun Xu
+<br>
+<b>Machine Unlearning for Image Retrieval: A Generative Scrubbing Approach</b> 
+<br>
+<i>The 30th ACM International Conference on Multimedia (MM)</i>, 2022.
+<br />
+
+<a href="javascript:toggleBibtex('MM2022-2')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_MM2022-2" class="bibtex noshow">
+<pre>
+@inproceedings{MM2022-2,
+author = {Zhang, Peng-Fei and Bai, Guangdong and Huang, Zi and Xu, Xin-Shun},
+title = {Machine Unlearning for Image Retrieval: A Generative Scrubbing Approach},
+year = {2022},
+booktitle = {Proceedings of the 30th ACM International Conference on Multimedia (MM)},
+pages = {237–245},
+numpages = {9},
+}
+
+}
+</pre>
+</div>
+</li>
+	
+<!-- Item: TIS2022 -->	
+<li ><p>
+Peng-Fei Zhang, Guangdong Bai, Hongzhi Yin, Zi Huang
+<br>
+<b>Proactive Privacy-preserving Learning for Cross-modal Retrieval</b> 
+<br>
+<i>ACM Transactions on Information Systems</i>, 2022.
+<br />
+
+<a href="javascript:toggleBibtex('TIS2022')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_TIS2022" class="bibtex noshow">
+<pre>
+@article{TIS2022,
+author = {Zhang, Peng-Fei and Bai, Guangdong and Yin, Hongzhi and Huang, Zi},
+title = {Proactive Privacy-Preserving Learning for Cross-Modal Retrieval},
+year = {2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+journal = {ACM Transactions on Information Systems},
+month = {jun},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: TDSC2022-1 -->	
+<li ><p>
+Mark Huasong Meng, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Sin Gee Teo, Zhe Hou, Yan Xiao, Yun Lin, Jin Song Dong
+<br>
+<b>Adversarial Robustness of Deep Neural Networks: A Survey from a Formal Verification Perspective</b> 
+<br>
+<i>IEEE Transactions on Dependable and Secure Computing (TDSC) </i>, 2022.
+<br />
+
+<a href="javascript:toggleBibtex('TDSC2022-1')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_TDSC2022-1" class="bibtex noshow">
+<pre>
+@ARTICLE{TDSC2022-1,
+  author={Meng, Mark Huasong and Bai, Guangdong and Teo, Sin Gee and Hou, Zhe and Xiao, Yan and Lin, Yun and Dong, Jin Song},
+  journal={IEEE Transactions on Dependable and Secure Computing}, 
+  title={Adversarial Robustness of Deep Neural Networks: A Survey from a Formal Verification Perspective}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TDSC.2022.3179131},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: TDSC2022-2 -->	
+<li ><p>
+  Yanjun Zhang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Xue Li, Surya Nepal, Marthie Grobler, Chen Chen, Ryan K L Ko
+  <br>
+  <b>Preserving Privacy for Distributed Genome-Wide Analysis Against Identity Tracing Attacks</b> 
+  <br>
+  <i>IEEE Transactions on Dependable and Secure Computing (TDSC) </i>, 2022.
+  <br />
+  
+  <a href="javascript:toggleBibtex('TDSC2022-2')">[BibTeX]</a>
+  <a href="{{ site.url/publications }}" >[PDF]</a>
+  </p>
+  <div id="bib_TDSC2022-2" class="bibtex noshow">
+  <pre>
+    @ARTICLE{TDSC2022-2,
+      author={Zhang, Yanjun and Bai, Guangdong and Li, Xue and Nepal, Surya and Grobler, Marthie and Chen, Chen and Ko, Ryan K L},
+      journal={IEEE Transactions on Dependable and Secure Computing}, 
+      title={Preserving Privacy for Distributed Genome-Wide Analysis Against Identity Tracing Attacks}, 
+      year={2022},
+      volume={},
+      number={},
+      pages={1-17},
+      doi={10.1109/TDSC.2022.3186672}, 
+    }
+  </pre>
+  </div>
+  </li>
+	
+<!-- Item: MobiCom2022 -->
+<li ><p>
+Kailong Wang, Yuwei Zheng, Qing Zhang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Mingchuang Qin, Donghui Zhang, Jin Song Dong
+<br>
+<b>Assessing Certificate Validation User Interfaces of WPA Supplicants</b> 
+<br>
+<i>The 28th Annual International Conference On Mobile Computing And Networking (MobiCom)</i>, 2022.
+<br />
+
+<a href="javascript:toggleBibtex('MobiCom2022')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_MobiCom2022" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>	
+	
+	
+<!-- Item: ADMA2022 -->
+<li ><p>
+Liuhuo Wan, Yanjun Zhang, Ruiqing Li, Ryan Ko, Louw Hoffman, and Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>SATB: A Testbed of IoT-based Smart Agriculture Network for Dataset Generation</b> 
+<br>
+<i>International Conference on Advanced Data Mining and Applications (ADMA)</i>, 2022.
+<br />
+<font color="red"> <b> Best Paper Runner Up Award </b></font>
+<a href="javascript:toggleBibtex('ADMA2022')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_ADMA2022" class="bibtex noshow">
+<pre>
+@InProceedings{ADMA2022,
+author="Wan, Liuhuo and Zhang, Yanjun and Li, Ruiqing and Ko, Ryan and Hoffman, Louw and Bai, Guangdong",
+title="SATB: A Testbed of IoT-based Smart Agriculture Network for Dataset Generation",
+booktitle="Advanced Data Mining and Applications (ADMA)",
+year="2022",
+}
+</pre>
+</div>
+</li>	
+	
+	
+
+<!-- Item: PAKDD2022 -->
+<li ><p>
+Chenhao Zhang, Yanjun Zhang, Jeff Mao, Weitong Chen, Lin Yue, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Miao Xu
+<br>
+<b>Towards Better Generalization for Neural Network-Based SAT Solvers</b> 
+<br>
+<i>Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)</i>, 2022.
+<br />
+
+<a href="javascript:toggleBibtex('PAKDD2022')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_PAKDD2022" class="bibtex noshow">
+<pre>
+@inproceedings{PAKDD,
+author = {Zhang, Chenhao and Zhang, Yanjun and Mao, Jeff and Chen, Weitong and Yue, Lin and Bai, Guangdong and Xu, Miao},
+title = {Towards Better Generalization for Neural Network-Based SAT Solvers},
+year = {2022},
+isbn = {978-3-031-05935-3},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-031-05936-0_16},
+doi = {10.1007/978-3-031-05936-0_16},
+booktitle = {Advances in Knowledge Discovery and Data Mining: 26th Pacific-Asia Conference, PAKDD 2022, Chengdu, China, May 16–19, 2022, Proceedings, Part II},
+pages = {199–210},
+numpages = {12},
+}
+</pre>
+</div>
+</li>		
+	
+<!-- Item: JSS2022 -->	
+<li ><p>
+Hongcan Gao, Chenkai Guo, Guangdong Bai, Dengrong Huang, Zhen He, Yanfeng Wu, Jing Xu
+<br>
+<b>Sharing runtime permission issues for developers based on similar-app review mining</b> 
+<br>
+<i>Journal of Systems and Software </i>, 2022.
+<br />
+
+<a href="javascript:toggleBibtex('JSS2022')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_JSS2022" class="bibtex noshow">
+<pre>
+@article{JSS2022,
+title = {Sharing runtime permission issues for developers based on similar-app review mining},
+journal = {Journal of Systems and Software},
+volume = {184},
+pages = {111118},
+year = {2022},
+author = {Hongcan Gao and Chenkai Guo and Guangdong Bai and Dengrong Huang and Zhen He and Yanfeng Wu and Jing Xu},
+}
+</pre>
+</div>
+</li>
+	
+
+
+<h3 style="margin-bottom:10px;padding-top:10px;">2021</h3>
+<!-- Item: esorics2021 -->
+<li ><p>
+Yanjun Zhang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Xue Li, Caitlin Curtis, Chen Chen, Ryan Ko
+<br>
+<b>Privacy-Preserving Gradient Descent for Distributed Genome-Wide Analysis</b> 
+<br>
+<i>The 26th European Symposium on Research in Computer Security (ESORICS)</i>, 2021.
+<br />
+
+<a href="javascript:toggleBibtex('ESORICS2021')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_ESORICS2021" class="bibtex noshow">
+<pre>
+@InProceedings{ESORICS2021,
+  author = {Yanjun Zhang and Guangdong Bai and Xue Li and Caitlin Curtis and Chen Chen and Ryan Ko}, 
+  title = {Privacy-Preserving Gradient Descent for Distributed Genome-Wide Analysis}, 
+  year = {2021},
+  booktitle = {Proceedings of the 26th European Symposium on Research in Computer Security (ESORICS)}, 
+  pages = {},
+}
+</pre>
+</div>
+</li>
+
+
+<li ><p>
+Kulani Mahadewa, Yanjun Zhang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Lei Bu, Zhiqiang Zuo, Dileepa Fernando, Zhenkai Liang, Jin Song Dong
+<br>
+<b>Identifying privacy weaknesses from multi-party trigger-action integration platforms</b> 
+<br>
+<i>The 30th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)</i>, 2021.
+<br />
+
+<a href="javascript:toggleBibtex('ISSTA2021')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_ISSTA2021" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+<li ><p>
+Hanlin Wei, Behnaz Hassanshahi, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Padmanabhan Krishnan, Kostyantyn Vorobyov
+<br>
+<b>MoScan: a model-based vulnerability scanner for web single sign-on services</b> (Tool paper) 
+<br>
+<i>The 30th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)</i>, 2021.
+<br />
+
+<a href="javascript:toggleBibtex('ISSTA2021-t')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_ISSTA2021-t" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+	
+<!-- Item: ADMA2021 -->
+<li ><p>
+Fuman Xie, Yanjun Zhang, Hanlin Wei, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>
+<br>
+<b>UQ-AAS21: A Comprehensive Dataset of Amazon Alexa Skills</b> 
+<br>
+<i>International Conference on Advanced Data Mining and Applications (ADMA)</i>, 2021.
+<br />
+<font color="red"> <b> Best Application Paper Runner Up Award </b></font>
+<a href="javascript:toggleBibtex('ADMA2021')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_ADMA2021" class="bibtex noshow">
+<pre>
+@InProceedings{ADMA2021,
+author="Xie, Fuman and Zhang, Yanjun and Wei, Hanlin and Bai, Guangdong",
+title="UQ-AAS21: A Comprehensive Dataset of Amazon Alexa Skills",
+booktitle="Advanced Data Mining and Applications (ADMA)",
+year="2021",
+pages="159--173",
+}
+</pre>
+</div>
+</li>	
+
+<li ><p>
+Liu Wang, Ruiqing Li, Jiaxin Zhu, Guangdong Bai, Weihang Su, Haoyu Wang
+<br>
+<b>Understanding the Impact of COVID-19 on Github Developers: A Preliminary Study</b> 
+<br>
+<i>The 33rd International Conference on Software Engineering & Knowledge Engineering (SEKE) </i>, 2021.
+<br />
+
+<a href="javascript:toggleBibtex('SEKE2021')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_SEKE2021" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+	
+<li ><p>
+Yuteng Lu, Weidi Sun, Guangdong Bai, Meng Sun
+<br>
+<b>DeepAuto: A First Step Towards Formal Verification of Deep Learning Systems</b> 
+<br>
+<i>The 33rd International Conference on Software Engineering & Knowledge Engineering (SEKE) </i>, 2021.
+<br />
+
+<a href="javascript:toggleBibtex('SEKE2021-2')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_SEKE2021-2" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+<li ><p>
+Liu Wang, Ruiqing Li, Jiaxin Zhu, Guangdong Bai, Haoyu Wang
+<br>
+<b>A Large-Scale Empirical Study of COVID-19 Themed GitHub Repositories</b> 
+<br>
+<i>IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC)</i>, 2021.
+<br />
+
+<a href="javascript:toggleBibtex('COMPSAC2021')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_COMPSAC2021" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+
+<li ><p>
+Kailong Wang, Junzhe Zhang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Ryan Ko, Jin Song Dong
+<br>
+<b>It's Not Just the Site, It's the Contents: Intra-domain Fingerprinting Social Media Websites Through CDN Bursts</b> 
+<br>
+<i>The Web Conference (WWW)</i>, 2021.
+<br />
+
+<a href="javascript:toggleBibtex('WWW2021')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_WWW2021" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+<h3 style="margin-bottom:10px;padding-top:10px;">2020</h3>
+<!-- Item: esorics2020 -->
+<li ><p>
+Yanjun Zhang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Xue Li, Caitlin Curtis, Chen Chen, Ryan K. L. Ko
+<br>
+<b>PrivColl: Practical Privacy-Preserving Collaborative Machine Learning</b> 
+<br>
+<i>The 25th European Symposium on Research in Computer Security (ESORICS)</i>, 2020.
+<br />
+
+<a href="javascript:toggleBibtex('ESORICS2020')">[BibTeX]</a>
+<a href="https://arxiv.org/abs/2007.06953" target="_blank">[PDF]</a>
+</p>
+<div id="bib_ESORICS2020" class="bibtex noshow">
+<pre>
+@InProceedings{ESORICS2020,
+  author = {Yanjun Zhang and Guangdong Bai and Xue Li and Caitlin Curtis and Chen Chen and Ryan K. L. Ko}, 
+  title = {PrivColl: Practical Privacy-Preserving Collaborative Machine Learning}, 
+  year = {2020},
+  booktitle = {Proceedings of the 25th European Symposium on Research in Computer Security (ESORICS)}, 
+  pages = {},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: is2020 -->
+<li ><p>
+Yanjun Zhang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Mingyang Zhang, Xue Li, Ryan Ko
+<br>
+<b>Differentially private collaborative coupling learning for recommender systems</b>
+<br>
+<i>IEEE Intelligent Systems</i>, 2020. 
+<br />
+
+<a href="javascript:toggleBibtex('IS2020')">[BibTeX]</a>
+<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9130104" target="_blank">[PDF]</a>
+</p>
+<div id="bib_IS2020" class="bibtex noshow">
+<pre>
+@Article{IS2020,
+  author = {Yanjun Zhang and Guangdong Bai and Mingyang Zhang and Xue Li and Ryan Ko}, 
+  title = {Differentially private collaborative coupling learning for recommender systems}, 
+  year = {2020},
+  journal = {IEEE Intelligent Systems},
+  pages = {},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: InfoSci2020 -->
+<li ><p>
+Chenkai Guo, Dengrong Huang, Jianwen Zhang, Jing Xu, Guangdong Bai, Naipeng Dong
+<br>
+<b>Early prediction for mode anomaly in generative adversarial network training: An empirical study</b>
+<br>
+<i>Information Sciences</i>, 2020. 
+<br />
+
+<a href="javascript:toggleBibtex('INFOSCI2020')">[BibTeX]</a>
+<a href="https://www.sciencedirect.com/science/article/pii/S0020025520304722" target="_blank">[PDF]</a>
+</p>
+<div id="bib_INFOSCI2020" class="bibtex noshow">
+<pre>
+@Article{INFOSCI2020,
+  title = {Early prediction for mode anomaly in generative adversarial network training: An empirical study},
+  journal = {Information Sciences},
+  volume = {534},
+  pages = {117 - 138},
+  year = {2020},
+  author = {Chenkai Guo and Dengrong Huang and Jianwen Zhang and Jing Xu and Guangdong Bai and Naipeng Dong},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: neuro2020 -->
+<li ><p>
+Yanfeng Wu, Chenkai Guo, Hongcan Gao, Jing Xu, Guangdong Bai
+<br>
+<b>Dilated residual networks with multi-level attention for speaker verification</b>
+<br>
+<i>Neurocomputing</i>, 2020. 
+<br />
+
+<a href="javascript:toggleBibtex('NEURO2020')">[BibTeX]</a>
+<a href="https://www.sciencedirect.com/science/article/pii/S0925231220310675" target="_blank">[PDF]</a>
+</p>
+<div id="bib_NEURO2020" class="bibtex noshow">
+<pre>
+@Article{NEURO2020,
+  author = {Yanfeng Wu and Chenkai Guo and Hongcan Gao and Jing Xu and Guangdong Bai},
+  title = {Dilated residual networks with multi-level attention for speaker verification}, 
+  year = {2020},
+  journal = {Neurocomputing},
+  volume = {412},
+  pages = {177 - 186},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: ker2020-->
+<li ><p>
+Naipeng Dong, Guangdong Bai, Lung-Chen Huang, Edmund Kok Heng Lim, Jin Song Dong
+<br>
+<b>A blockchain-based decentralized booking system</b>
+<br>
+<i>The Knowledge Engineering Review</i>, 2020. 
+<br />
+
+<a href="javascript:toggleBibtex('KER2020')">[BibTeX]</a>
+<a href="https://www.cambridge.org/core/journals/knowledge-engineering-review/article/blockchainbased-decentralized-booking-system/76E6120CD8E304139F02D3FBF1FEBFAD" target="_blank">[PDF]</a>
+</p>
+<div id="bib_KER2020" class="bibtex noshow">
+<pre>
+@Article{KER2020,
+  title={A blockchain-based decentralized booking system}, 
+  volume={35}, 
+  DOI={10.1017/S0269888920000260}, 
+  journal={The Knowledge Engineering Review}, 
+  publisher={Cambridge University Press}, 
+  author={Dong, Naipeng and Bai, Guangdong and Huang, Lung-Chen and Lim, Edmund Kok Heng and Dong, Jin Song}, 
+  year={2020}, 
+  pages={e17}
+}
+
+</pre>
+</div>
+</li>
+
+
+<li ><p>
+Taejun Choi, Guangdong Bai, Ryan KL Ko, Naipeng Dong, Wenlu Zhang, Shunyao Wang
+<br>
+<b>An Analytics Framework for Heuristic Inference Attacks against Industrial Control Systems</b> 
+<br>
+<i>IEEE 19th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)</i>, 2020.
+<br />
+
+<a href="javascript:toggleBibtex('TrustCom2020')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_TrustCom2020" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+<li ><p>
+Hanlin Wei, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Zongwei Luo
+<br>
+<b>Foggy: A New Anonymous Communication Architecture Based on Microservices</b> 
+<br>
+<i>The 25th International Conference on Engineering of Complex Computer Systems (ICECCS)</i>, 2020.
+<br />
+
+<a href="javascript:toggleBibtex('ICECCS2020-1')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_ICECCS2020-1" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+<li ><p>
+Ru Ji, Ningyu He, Lei Wu, Haoyu Wang, Guangdong Bai, Yao Guo
+<br>
+<b>Deposafe: Demystifying the fake deposit vulnerability in ethereum smart contracts</b> 
+<br>
+<i>The 25th International Conference on Engineering of Complex Computer Systems (ICECCS)</i>, 2020.
+<br />
+
+<a href="javascript:toggleBibtex('ICECCS2020-2')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_ICECCS2020-2" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+
+<li ><p>
+Pengcheng Xia, Haoyu Wang, Xiapu Luo, Lei Wu, Yajin Zhou, Guangdong Bai, Guoai Xu, Gang Huang, Xuanzhe Liu
+<br>
+<b>Don't fish in troubled waters! characterizing coronavirus-themed cryptocurrency scams</b> 
+<br>
+<i>2020 APWG Symposium on Electronic Crime Research (eCrime)</i>, 2020.
+<br />
+
+<a href="javascript:toggleBibtex('ECrime2020')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" >[PDF]</a>
+</p>
+<div id="bib_ECrime2020" class="bibtex noshow">
+<pre>
+</pre>
+</div>
+</li>
+
+<h3 style="margin-bottom:10px;padding-top:10px;">2019</h3>
+
+<!-- Item: tse2019 -->
+<li ><p>
+Kulani Mahadewa, Kailong Wang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Ling Shi, Yan Liu, Jin Song Dong and Zhenkai Liang
+<br>
+<b>Scrutinizing Implementations of Smart Home Integrations</b>
+<br>
+<i>IEEE Transactions on Software Engineering (TSE)</i>, 2019.
+<br />
+
+<a href="javascript:toggleBibtex('TSE2019')">[BibTeX]</a>
+<a href="https://ieeexplore.ieee.org/document/8936860" target="_blank">[PDF]</a>
+</p>
+<div id="bib_TSE2019" class="bibtex noshow">
+<pre>
+@Article{TSE2019,
+ author={Mahadewa, Kulani and Wang, Kailong and Bai, Guangdong and Shi, Ling and Dong, Jin Song and Liang, Zhenkai},
+ journal={IEEE Transactions on Software Engineering},
+ title={Scrutinizing Implementations of Smart Home Integrations},
+ year={2019},
+ volume={},
+ number={},
+ pages={},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: IEEEST2019 -->
+<li ><p>
+Pardeep Kumar, Yun Lin, Guangdong Bai, Andrew Paverd, Jin Song Dong, Andrew Martin
+<br>
+<b>Smart Grid Metering Networks: A Survey on Security, Privacy and Open Research Issues</b>
+<br>
+<i>IEEE Communications Surveys & Tutorials</i>, 2019.
+<br />
+
+<a href="javascript:toggleBibtex('IEEEST2019')">[BibTeX]</a>
+<a href="/files/IEEEST2019.pdf" target="_blank">[PDF]</a>
+</p>
+<div id="bib_IEEEST2019" class="bibtex noshow">
+<pre>
+@ARTICLE{IEEEST2019, 
+author={Kumar, Pardeep and Lin, Yun and Bai, Guangdong and Paverd, Andrew and Dong, Jin Song and Martin, Andrew}, 
+journal={IEEE Communications Surveys \& Tutorials}, 
+title={Smart Grid Metering Networks: A Survey on Security, Privacy and Open Research Issues}, 
+year={2019}, 
+volume={}, 
+number={}, 
+pages={1-1}, 
+doi={10.1109/COMST.2019.2899354}, 
+ISSN={1553-877X}, 
+month={},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: ase2019 -->
+<li ><p>
+Tianming Liu, Haoyu Wang, Li Li, Guangdong Bai, Yao Guo and Guoai Xu
+<br>
+<b>DaPanda: Detecting Aggressive Push Notification in Android Apps</b>
+<br>
+<i>The 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)</i>, 2019.
+<br />
+
+<a href="javascript:toggleBibtex('ASE2019')">[BibTeX]</a>
+</p>
+<div id="bib_ASE2019" class="bibtex noshow">
+<pre>
+@InProceedings{ASE2019,
+  author = {Liu, Tianming and Wang, Haoyu and Li, Li and Bai, Guangdong and Guo, Yao and Xu, Guoai},
+  title = {DaPanda: Detecting Aggressive Push Notifications in Android Apps},
+  year = {2019},
+  publisher = {IEEE Press},
+  booktitle = {Proceedings of the 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  pages = {66–78},
+  numpages = {13},
+  location = {San Diego, California},
+}
+</pre>
+</div>
+</li>
+	
+<!-- Item: isc2019 -->
+<li ><p>
+Quanqi Ye, Yan Zhang, Guangdong Bai, Naipeng Dong, Zhenkai Liang, Jin Song Dong and Haoyu Wang
+<br>
+<b>LightSense: A Novel Side Channel for Zero-permission Mobile User Tracking</b>
+<br>
+<i>the 22nd International Conference Information Security (ISC) </i>, 2019.
+<br />
+
+<a href="javascript:toggleBibtex('ISC2019')">[BibTeX]</a>
+<a href="https://link.springer.com/chapter/10.1007/978-3-030-30215-3_15" target="_blank">[PDF]</a>
+</p>
+<div id="bib_ISC2019" class="bibtex noshow">
+<pre>
+@inproceedings{ISC2019,
+  author    = {Quanqi Ye and Yan Zhang and Guangdong Bai and Naipeng Dong and Zhenkai Liang and Jin Song Dong and Haoyu Wang},
+  title     = {LightSense: {A} Novel Side Channel for Zero-permission Mobile User Tracking},
+  booktitle = {Proceedings of the 22nd International Conference Information Security (ISC)},
+  pages     = {299--318},
+  year      = {2019},
+}
+</pre>
+</div>
+</li>
+
+
+
+<h3 style="margin-bottom:10px;padding-top:10px;">2018</h3>
+<!-- Item: tse2018 -->
+<li ><p>
+Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Quanqi Ye, Yongzheng Wu, Heila Botha, Jun Sun, Yang Liu, Jin Song Dong and Willem Visser
+<br>
+<b>Towards Model Checking Android Applications</b>
+<br>
+<i>IEEE Transactions on Software Engineering (TSE)</i>, 44(6): 595-612, 2018.
+<br />
+
+<a href="javascript:toggleBibtex('TSE2018')">[BibTeX]</a>
+<a href="https://ieeexplore.ieee.org/document/7911333" target="_blank">[PDF]</a>
+</p>
+<div id="bib_TSE2018" class="bibtex noshow">
+<pre>
+@Article{TSE2018,
+ author={Bai, Guangdong and Ye, Quanqi and Wu, Yongzheng and Botha, Heila and Sun, Jun and Liu, Yang and Dong, Jin Song and Visser, Willem},
+ journal={IEEE Transactions on Software Engineering},
+ title={Towards Model Checking Android Applications},
+ year={2018},
+ volume={44},
+ number={6},
+ pages={595-612},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: iceccs2018a -->
+<li ><p>
+Kulani Mahadewa, Kailong Wang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Ling Shi, Jin Song Dong and Zhenkai Liang
+<br>
+<b>HomeScan: Scrutinizing Implementations of Smart Home Integrations</b>
+<br>
+<i>23rd International Conference on Engineering of Complex Computer Systems (ICECCS)</i>, 2018.
+<br />
+
+<a href="javascript:toggleBibtex('ICECCS2018a')">[BibTeX]</a>
+<a href="/files/ICECCS2018a.pdf" target="_blank">[PDF]</a>
+<a href="/files/ICECCS2018a-slides.pdf" target="_blank">[Slides]</a>
+</p>
+<div id="bib_ICECCS2018a" class="bibtex noshow">
+<pre>
+@InProceedings{ICECCS2018a,
+  author = {Mahadewa, Kulani and Wang, Kailong and Bai, Guangdong and Shi, Ling and Dong, Jin Song and Liang, Zhenkai},
+  title = {HomeScan: Scrutinizing Implementations of Smart Home Integrations},
+  booktitle = {Proceedings of the 23rd International Conference on Engineering of Complex Computer Systems (ICECCS)},
+  year = {2018},
+  pages = {21--30},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: iceccs2018b -->
+<li ><p>
+Wai Yan Maung Maung Thin, Naipeng Dong, Guangdong Bai and Jin Song Dong
+<br>
+<b>Formal Analysis of a Proof-of-Stake Blockchain</b>
+<br>
+<i>23rd International Conference on Engineering of Complex Computer Systems (ICECCS)</i>, 2018.
+<br />
+
+<a href="javascript:toggleBibtex('ICECCS2018b')">[BibTeX]</a>
+<a href="/files/ICECCS2018b.pdf" target="_blank">[PDF]</a>
+<a href="/files/ICECCS2018b-slides.pdf" target="_blank">[Slides]</a>
+<a href="https://github.com/waiyan1612/blockchain-analysis" target="_blank">[Models]</a>
+</p>
+<div id="bib_ICECCS2018b" class="bibtex noshow">
+<pre>
+@InProceedings{ICECCS2018b,
+  author = {Thin, Wai Yan Maung Maung and Dong, Naipeng and Bai, Guangdong and Dong, Jin Song},
+  title = {Formal Analysis of a Proof-of-Stake Blockchain},
+  booktitle = {Proceedings of the 23rd International Conference on Engineering of Complex Computer Systems (ICECCS)},
+  year = {2018},
+  pages = {197--200},
+}
+</pre>
+</div>
+</li>
+
+
+
+<!-- Item: ASE2018 -->
+<li ><p>
+Yun Lin, Jun Sun, Lyly Tran, Guangdong Bai, Haijun Wang and Jin Song Dong
+<br>
+<b>Break the dead end of dynamic slicing: localizing data and control omission bug </b>
+<br>
+<i> ACM/IEEE International Conference on Automated Software Engineering (ASE)</i>,  2018.
+<br />
+<a href="javascript:toggleBibtex('ASE2018')">[BibTeX]</a>
+<a href="http://linyun.info/tregression/slicebreaker.pdf" target="_blank">[PDF]</a>
+</p>
+<div id="bib_ASE2018" class="bibtex noshow">
+<pre>
+@InProceedings{ASE2018,
+  author = {Lin, Yun and Sun, Jun and Tran, Lyly and Bai, Guangdong and Wang, Haijun and Dong, Jinsong},
+  title = {Break the Dead End of Dynamic Slicing: Localizing Data and Control Omission Bug},
+  booktitle = {Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering (ASE)},
+  year = {2018},
+  pages = {509--519},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+}
+</pre>
+</div>
+</li>
+
+
+<h3 style="margin-bottom:10px;padding-top:10px;">2017</h3>
+
+<!-- Item: ACSAC2017 -->
+<li ><p>
+Binbin Chen, Xinshu Dong, Guangdong Bai, Sumeet Jauhar and Yueqiang Cheng
+<br>
+<b>Secure and Efficient Software-based Attestation for Industrial Control Devices with ARM Processors </b>
+<br>
+<i> Annual Computer Security Applications Conference (ACSAC)</i>, 2017.
+<br />
+<a href="javascript:toggleBibtex('ACSAC2017')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" target="_blank">[PDF]</a>
+</p>
+<div id="bib_ACSAC2017" class="bibtex noshow">
+<pre>
+@InProceedings{ACSAC2017,
+ author = {Chen, Binbin and Dong, Xinshu and Bai, Guangdong and Jauhar, Sumeet and Cheng, Yueqiang},
+ title = {Secure and Efficient Software-based Attestation for Industrial Control Devices with ARM Processors},
+ booktitle = {Proceedings of the 33rd Annual Computer Security Applications Conference (ACSAC) },
+ year = {2017},
+ location = {Orlando, FL, USA},
+ pages = {425--436},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: SecureComm2017a -->
+<li ><p>
+Quanqi Ye, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Naipeng Dong and Jin Song Dong
+<br>
+<b>Inferring Implicit Assumptions and Correct Usage of Mobile Payment Protocols </b>
+<br>
+<i> International Conference on Security and Privacy in Communication Networks (SecureComm)</i>, 2017.
+<br />
+<a href="javascript:toggleBibtex('SecureComm2017a')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" target="_blank">[PDF]</a>
+</p>
+<div id="bib_SecureComm2017a" class="bibtex noshow">
+<pre>
+@InProceedings{SecureComm2017a,
+author="Ye, Quanqi and Bai, Guangdong and Dong, Naipeng and Dong, Jin Song",
+title="Inferring Implicit Assumptions and Correct Usage of Mobile Payment Protocols",
+booktitle="Security and Privacy in Communication Networks (SecureComm)",
+year="2017",
+publisher="Springer International Publishing",
+address="Cham",
+pages="469--488",
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: SecureComm2017b -->
+<li ><p>
+Kailong Wang, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Naipeng Dong and Jin Song Dong
+<br>
+<b>A Framework for Formal Analysis of Privacy on SSO Protocols </b>
+<br>
+<i> International Conference on Security and Privacy in Communication Networks (SecureComm)</i>, 2017.
+<br />
+<a href="javascript:toggleBibtex('SecureComm2017b')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" target="_blank">[PDF]</a>
+</p>
+<div id="bib_SecureComm2017b" class="bibtex noshow">
+<pre>
+@InProceedings{SecureComm2017b,
+author="Wang, Kailong and Bai, Guangdong and Dong, Naipeng and Dong, Jin Song",
+title="A Framework for Formal Analysis of Privacy on SSO Protocols",
+booktitle="Security and Privacy in Communication Networks (SecureComm)",
+year="2017",
+publisher="Springer International Publishing",
+address="Cham",
+pages="763--777",
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: ICFEM2017 -->
+<li ><p>
+Li Li, Naipeng Dong, Jun Pang, Jun Sun, Guangdong Bai, Yang Liu and Jin Song Dong
+<br>
+<b>A Verification Framework for Stateful Security Protocols </b>
+<br>
+<i> International Conference on Formal Engineering Methods (ICFEM)</i>, 2017.
+<br />
+<a href="javascript:toggleBibtex('ICFEM2017')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" target="_blank">[PDF]</a>
+</p>
+<div id="bib_ICFEM2017" class="bibtex noshow">
+<pre>
+@InProceedings{ICFEM2017,
+ author="Li, Li and Dong, Naipeng and Pang, Jun and Sun, Jun and Bai, Guangdong and Liu, Yang and Dong, Jin Song",
+ title="A Verification Framework for Stateful Security Protocols",
+ booktitle="Formal Methods and Software Engineering (ICFEM)",
+ year="2017",
+ publisher="Springer International Publishing",
+ pages="262--280",
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: PAC2017 -->
+<li ><p>
+Yinhao Xiao, Guangdong Bai, Jian Mao, Zhenkai Liang and Wei Cheng
+<br>
+<b>Privilege Leakage and Information Stealing through the Android Task Mechanism </b>
+<br>
+<i> IEEE Symposium on Privacy-Aware Computing (PAC)</i>, 2017.
+<br />
+<a href="javascript:toggleBibtex('PAC2017')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" target="_blank">[PDF]</a>
+</p>
+<div id="bib_PAC2017" class="bibtex noshow">
+<pre>
+@InProceedings{PAC2017,
+ author={Y. Xiao and G. Bai and J. Mao and Z. Liang and W. Cheng},
+booktitle={2017 IEEE Symposium on Privacy-Aware Computing (PAC)},
+title={Privilege Leakage and Information Stealing through the Android Task Mechanism},
+year={2017},
+pages={152-163},
+}
+</pre>
+</div>
+</li>
+
+
+<h3 style="margin-bottom:10px;padding-top:10px;">2016</h3>
+
+<!-- Item: PETS2016 -->
+<li ><p>
+Yaoqi Jia, Guangdong Bai, Prateek Saxena and Zhenkai Liang
+<br>
+<b>Anonymity in Peer-assisted CDNs: Inference Attacks and Mitigation </b>
+<br>
+<i> Privacy Enhancing Technologies (PETS)</i>, 2016.
+<br />
+<a href="javascript:toggleBibtex('PETS2016')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" target="_blank">[PDF]</a>
+</p>
+<div id="bib_PETS2016" class="bibtex noshow">
+<pre>
+@article { PETS2016,
+      author = "Yaoqi Jia and Guangdong Bai and Prateek Saxena and Zhenkai Liang",
+      title = "Anonymity in Peer-assisted CDNs: Inference Attacks and Mitigation",
+      journal = "Proceedings on Privacy Enhancing Technologies (PETS)",
+      year = "2016",
+      volume = "2016",
+      number = "4",
+      pages:      294 - 314",
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: ICECCS2016a -->
+<li ><p>
+Shuang Liu, Guangdong Bai, Jun Sun and Jin Song Dong
+<br>
+<b>Towards Using Concurrent Java API Correctly </b>
+<br>
+<i> International Conference on Engineering of Complex Computer Systems
+(ICECCS)</i>, 2016.
+<br />
+<a href="javascript:toggleBibtex('ICECCS2016a')">[BibTeX]</a>
+<a href="https://ieeexplore.ieee.org/document/7816591" target="_blank">[PDF]</a>
+</p>
+<div id="bib_ICECCS2016a" class="bibtex noshow">
+<pre>
+@inproceedings{ICECCS2016a,
+author={S. Liu and G. Bai and J. Sun and J. S. Dong},
+booktitle={2016 21st International Conference on Engineering of Complex Computer Systems (ICECCS)},
+title={Towards Using Concurrent Java API Correctly},
+year={2016},
+pages={219-222},
+}
+</pre>
+</div>
+</li>
+	
+<!-- Item: ICECCS2016b -->
+<li ><p>
+Chenkai Guo, Quanqi Ye, Naipeng Dong, Guangdong Bai, Jin Song Dong and Jing Xu
+<br>
+<b>Automatic Construction of Callback Model for Android Application</b>
+<br>
+<i> International Conference on Engineering of Complex Computer Systems
+(ICECCS)</i>, 2016.
+<br />
+<a href="javascript:toggleBibtex('ICECCS2016b')">[BibTeX]</a>
+<a href="https://ieeexplore.ieee.org/document/7816594" target="_blank">[PDF]</a>
+</p>
+<div id="bib_ICECCS2016b" class="bibtex noshow">
+<pre>
+@inproceedings{ICECCS2016b,
+author={C. Guo and Q. Ye and N. Dong and G. Bai and J. S. Dong and J. Xu},
+booktitle={2016 21st International Conference on Engineering of Complex Computer Systems (ICECCS)},
+title={Automatic Construction of Callback Model for Android Application},
+year={2016},
+pages={231-234},
+}
+</pre>
+</div>
+</li>
+
+<h3 style="margin-bottom:10px;padding-top:10px;">2015</h3>
+
+<!-- Item: ICECCS2015a -->
+<li ><p>
+Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Jun Sun, Jianliang Wu, Quanqi Ye, Li Li, Jin Song Dong and Shanqing Guo
+<br>
+<b>All Your Sessions are Belong to us: Investigating Authenticator Leakage through Backup Channels on Android </b>
+<br>
+<i> International Conference on Engineering of Complex Computer Systems
+(ICECCS)</i>, 2015.
+<br />
+<font color="red"> <b> Best Paper Award </b></font>
+<a href="javascript:toggleBibtex('ICECCS2015a')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" target="_blank">[PDF]</a>
+</p>
+<div id="bib_ICECCS2015a" class="bibtex noshow">
+<pre>
+@inproceedings{ICECCS2015a,
+ author = {Bai, Guangdong and Sun, Jun and Wu, Jianliang and Ye, Quanqi and Li, Li and Dong, Jin Song and Guo, Shanqing},
+ title = {All Your Sessions Are Belong to Us: Investigating Authenticator Leakage Through Backup Channels on Android},
+ booktitle = {Proceedings of the 2015 20th International Conference on Engineering of Complex Computer Systems (ICECCS)},
+ year = {2015},
+ pages = {60--69},,
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: ICECCS2015b -->
+<li ><p>
+Quanqi Ye, Guangdong Bai<span style="color:DarkOrange">[&#617;]</span> and Jin Song Dong
+<br>
+<b>Formal Analysis of a Single Sign-on Protocol
+Implementation for Android</b>
+<br>
+<i> International Conference on Engineering of Complex Computer Systems
+(ICECCS)</i>, 2015.
+<br />
+<a href="javascript:toggleBibtex('ICECCS2015b')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" target="_blank">[PDF]</a>
+</p>
+<div id="bib_ICECCS2015b" class="bibtex noshow">
+<pre>
+@inproceedings{ICECCS2015b,
+ author = {Ye, Quanqi and Bai, Guangdong and Wang, Kailong and Dong, Jin Song},
+ title = {Formal Analysis of a Single Sign-On Protocol Implementation for Android},
+ booktitle = {Proceedings of the 2015 20th International Conference on Engineering of Complex Computer Systems (ICECCS)},
+ year = {2015},
+ pages = {90--99},
+ numpages = {10},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+}
+</pre>
+</div>
+</li>
+
+
+<!-- Item: GLOBECOM2015 -->
+<li ><p>
+Haoyu Wang, Yao Guo, Zihao Tang, Guangdong Bai and Xiangqun Chen
+<br>
+<b>Reevaluating Android
+Permission Gaps with Static and Dynamic Analysis</b>
+<br>
+<i> IEEE Global Communications Conference
+(GLOBECOM)</i>, 2015.
+<br />
+<a href="javascript:toggleBibtex('GLOBECOM2015')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" target="_blank">[PDF]</a>
+</p>
+<div id="bib_GLOBECOM2015" class="bibtex noshow">
+<pre>
+@inproceedings{GLOBECOM2015,
+author={H. Wang and Y. Guo and Z. Tang and G. Bai and X. Chen},
+booktitle={2015 IEEE Global Communications Conference (GLOBECOM)},
+title={Reevaluating Android Permission Gaps with Static and Dynamic Analysis},
+year={2015},
+}
+</pre>
+</div>
+</li>
+
+<h3 style="margin-bottom:10px;padding-top:10px;">2014</h3>
+
+
+<!-- Item: FM2014 -->
+<li ><p>
+Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Jianan Hao, Jianliang Wu, Yang Liu, Zhenkai Liang and Andrew Martin
+<br>
+<b>TrustFound: Towards a Formal Foundation for Model Checking Trusted Computing Platforms</b>
+<br>
+<i> International Symposium on Formal Methods
+(FM)</i>, 2014.
+<br />
+<a href="javascript:toggleBibtex('FM2014')">[BibTeX]</a>
+<a href="https://link.springer.com/chapter/10.1007/978-3-319-06410-9_8" target="_blank">[PDF]</a>
+</p>
+<div id="bib_FM2014" class="bibtex noshow">
+<pre>
+@inproceedings{FM2014,
+ author = {Bai, Guangdong and Hao, Jianan and Wu, Jianliang and Liu, Yang and Liang, Zhenkai and Martin, Andrew},
+ title = {TrustFound: Towards a Formal Foundation for Model Checking Trusted Computing Platforms},
+ booktitle = {Proceedings of the 19th International Symposium on Formal Methods (FM)},
+ year = {2014},
+ pages = {110--126},
+ numpages = {17},
+ publisher = {Springer-Verlag New York, Inc.},
+ address = {New York, NY, USA},
+}
+
+</pre>
+</div>
+</li>
+
+<!-- Item: ICECCS2014 -->
+<li ><p>
+Xiaolei Li, Hong Hu, Guangdong Bai, Yaoqi Jia, Zhenkai Liang, Prateek Saxena
+<br>
+<b>DroidVault: A
+Trusted Data Vault for Android Devices</b>
+<br>
+<i> International Conference on Engineering of Complex Computer Systems
+(ICECCS)</i>, 2014.
+<br />
+<font color="red"> <b> Best Paper Award </b></font>
+<a href="javascript:toggleBibtex('ICECCS2014')">[BibTeX]</a>
+<a href="https://ieeexplore.ieee.org/document/6923115/" target="_blank">[PDF]</a>
+</p>
+<div id="bib_ICECCS2014" class="bibtex noshow">
+<pre>
+@inproceedings{ICECCS2014,
+  author = {Li, Xiaolei and Hu, Hong and Bai, Guangdong and Jia, Yaoqi and Liang, Zhenkai and Saxena, Prateek},
+ title = {DroidVault: A Trusted Data Vault for Android Devices},
+ booktitle = {Proceedings of the 2014 19th International Conference on Engineering of Complex Computer Systems (ICECCS)},
+ year = {2014},
+ pages = {29--38},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+}
+</pre>
+</div>
+</li>
+
+<h3 style="margin-bottom:10px;padding-top:10px;">2013</h3>
+
+<!-- Item: NDSS2013 -->
+<li ><p>
+Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Jike Lei, Guozhu Meng, Sai Sathyanarayan Venkatraman, Prateek Saxena, Jun
+Sun, Yang Liu and Jin Song Dong
+<br>
+<b>AuthScan: Automatic Extraction of Web Authentication
+Protocols from Implementations</b>
+<br>
+<i> Annual Network & Distributed System Security
+Symposium (NDSS)</i>, 2013.
+<br />
+<a href="javascript:toggleBibtex('NDSS2013')">[BibTeX]</a>
+<a href="{{ site.url/publications }}" target="_blank">[PDF]</a>
+</p>
+<div id="bib_NDSS2013" class="bibtex noshow">
+<pre>
+@inproceedings{NDSS2013,
+  author    = {Guangdong Bai and Jike Lei and Guozhu Meng and Sai Sathyanarayan Venkatraman and Prateek Saxena and Jun Sun and Yang Liu and Jin Song Dong},
+  title     = {AuthScan: Automatic Extraction of Web Authentication Protocols from Implementations},
+  booktitle = {Annual Network & Distributed System Security Symposium (NDSS)},
+  publisher = {The Internet Society},
+  year      = {2013}
+}
+}
+</pre>
+</div>
+</li>
+
+
+<!-- Item: ICECCS2013 -->
+<li ><p>
+Xiaolei Li, Guangdong Bai, Zhenkai Liang and Heng Yin
+<br>
+<b>A Software Environment for Confining
+Malicious Android Applications via Resource Virtualization</b>
+<br>
+<i> International Conference
+on Engineering of Complex Computer Systems (ICECCS)</i>, 2013.
+<br />
+<a href="javascript:toggleBibtex('ICECCS2013')">[BibTeX]</a>
+<a href="https://ieeexplore.ieee.org/document/6601825" target="_blank">[PDF]</a>
+</p>
+<div id="bib_ICECCS2013" class="bibtex noshow">
+<pre>
+@inproceedings{ICECCS2013,
+author = {Li, Xiaolei and Bai, Guangdong and Liang, Zhenkai and Yin, Heng},
+ title = {A Software Environment for Confining Malicious Android Applications via Resource Virtualization},
+ booktitle = {Proceedings of the 2013 18th International Conference on Engineering of Complex Computer Systems (ICECCS)},
+ year = {2013},
+ pages = {208--211},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: ICFEM2013 -->
+<li ><p>
+Jianan Hao, Yang Liu, Wentong Cai, Guangdong Bai and Jun Sun
+<br>
+<b>vTRUST: A Formal Modeling
+and Verification Framework for Virtualization Systems</b>
+<br>
+<i> International Conference on
+Formal Engineering Methods (ICFEM)</i>, 2013.
+<br />
+<a href="javascript:toggleBibtex('ICFEM2013')">[BibTeX]</a>
+<a href="https://link.springer.com/chapter/10.1007/978-3-642-41202-8_22" target="_blank">[PDF]</a>
+</p>
+<div id="bib_ICFEM2013" class="bibtex noshow">
+<pre>
+@inproceedings{ICFEM2013,
+author="Hao, Jianan and Liu, Yang and Cai, Wentong and Bai, Guangdong and Sun, Jun",
+title="vTRUST: A Formal Modeling and Verification Framework for Virtualization Systems",
+booktitle="Formal Methods and Software Engineering (ICFEM)",
+year="2013",
+publisher="Springer Berlin Heidelberg",
+pages="329--346",
+}
+</pre>
+</div>
+</li>
+
+<h4 style="margin-bottom:10px;padding-top:10px;">2012 & before</h4>
+
+<!-- Item: JNCA2012 -->
+<li ><p>
+Liang Gu, Guangdong Bai, Yao Guo, Xiangqun Chen and Hong Mei
+<br>
+<b>Security Model Oriented
+Attestation on Dynamically Reconfigurable Component-Based Systems</b>
+<br>
+<i> Journal of Network
+and Computer Applications</i>, 35(3):974-981, 2012.
+<br />
+<a href="javascript:toggleBibtex('JNCA2012')">[BibTeX]</a>
+<a href="https://www.sciencedirect.com/science/article/pii/S1084804511000683" target="_blank">[PDF]</a>
+</p>
+<div id="bib_JNCA2012" class="bibtex noshow">
+<pre>
+@article{JNCA2012,
+title = "Security model oriented attestation on dynamically reconfigurable component-based systems",
+journal = "Journal of Network and Computer Applications",
+volume = "35",
+number = "3",
+pages = "974 - 981",
+year = "2012",
+author = "Liang Gu and Guangdong Bai and Yao Guo and Xiangqun Chen and Hong Mei",
+}
+</pre>
+</div>
+</li>
+
+<!-- Item: SecureComm2010 -->
+<li ><p>
+Guangdong Bai<span style="color:DarkOrange">[&#617;]</span>, Tao Feng, Liang Gu, Yao Guo and Xiangqun Chen
+<br>
+<b>Context-Aware Usage Control
+for Android</b>
+<br>
+<i> International ICST Conference on Security and Privacy in
+Communication Networks (SecureComm)</i>, 2010.
+<br />
+<a href="javascript:toggleBibtex('SecureComm2010')">[BibTeX]</a>
+<a href="https://link.springer.com/chapter/10.1007/978-3-642-16161-2_19" target="_blank">[PDF]</a>
+</p>
+<div id="bib_SecureComm2010" class="bibtex noshow">
+<pre>
+@InProceedings{SecureComm2010,
+author="Bai, Guangdong and Gu, Liang and Feng, Tao and Guo, Yao and Chen, Xiangqun",
+title="Context-Aware Usage Control for Android",
+booktitle="Security and Privacy in Communication Networks (SecureComm)",
+year="2010",
+publisher="Springer Berlin Heidelberg",
+pages="326--343",
+}
+</pre>
+</div>
+</li>
+
+
+      </ol>
+    </div><!-- /.article-wrap -->
+    {% if site.disqus_shortname and page.comments %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+
+</body>
+</html>
