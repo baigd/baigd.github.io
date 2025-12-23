@@ -7,7 +7,7 @@ image:
   feature: trees.jpg
 ---
 
-I am an Associate Professor at <a href="https://www.itee.uq.edu.au/" target="_blank">School of Information Technology and Electrical Engineering</a>, <a href="https://www.uq.edu.au/" target="_blank">The University of Queensland</a>, Australia (on leave). I obtained my PhD degree from National University of Singapore, Singapore, and my M.S. and B.S. degrees from Peking University, China. My research interests include Security and Privacy, Software Engineering and Formal Methods. 
+I obtained my PhD degree from National University of Singapore, Singapore, and my M.S. and B.S. degrees from Peking University, China. My research interests include Security and Privacy, Software Engineering and Formal Methods. 
 
 <br>
 <b>I am recently working on these areas: </b> 
