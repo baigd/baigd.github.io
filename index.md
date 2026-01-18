@@ -64,6 +64,7 @@ I am an Associate Editor of <a href="https://www.computer.org/csdl/journal/tq" t
 <li><b>Suwan Li</b> (Visiting Scholar): AI Software Compliance and Alignment </li>  
 <li><b>Chuan Yan</b>: AI Software Compliance and Alignment </li> 
 <li><b>Mengyao Ma</b>: Privacy-preserving Learning </li>
+<li><b>Xinguo Feng</b>: LLM Security and Privacy </li>
 <li><b>Liuhuo Wan</b> (now Research Fellow at University of Wollongong): Mini Apps Security, Web Security </li>  
 <li><b>Fuman Xie</b> (now Research Fellow at UQ): AI Software Compliance and Alignment </li>  
 <li><b>Hao Guan</b> (now Lecturer at Nankai University): AI4SE, AI4Security</li>
